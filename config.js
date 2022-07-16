@@ -1,1 +1,1 @@
-export const MAPTILER_KEY = "";
+export const MAPTILER_KEY = "dtJiwgsjGxauQBuqtkj1";
