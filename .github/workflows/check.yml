@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  check:
+    name: Check modified image files
+    outputs:
+      should-run: ${{ steps.check.outputs.should-run }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: check modified files
+        id: check
+        run: |
+          if make check; then
+            echo "image files were modified"
+            echo "::set-output name=should-run::true"
+          else
+            echo "image files were NOT modified"
+            echo "::set-output name=should-run::false"
+          fi
+
+  call:
+    uses: ./.github/workflows/exiftool.yml
+    name: Call exiftool
+    needs: check
+    if:  ${{ needs.check.outputs.should-run == 'true' }}

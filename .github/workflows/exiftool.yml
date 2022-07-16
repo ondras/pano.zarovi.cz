@@ -1,0 +1,17 @@
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  exiftool:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - run: sudo apt install -y exiftool
+
+      - run: make
+
+      - uses: actions-js/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

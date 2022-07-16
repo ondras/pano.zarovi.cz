@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	display: flex;
+	height: 100vh;
+}
+
+@supports (height: 100dvh) {
+	body { height: 100dvh; }
+}
+
+@media (orientation: portrait) {
+	body { flex-direction: column;	}
+}
+
+@media (orientation: landscape) {
+	body { flex-direction: row;	}
+}
+
+#map {
+	flex: 1 1 0;
+}
+
+.leaflet-marker-icon.active {
+	filter: hue-rotate(150deg);
+}
+
+.leaflet-popup-content strong {
+	font-size: 116.667%;
+	text-decoration: underline;
+	color: dodgerblue;
+	cursor: pointer;
+}
+
+little-planet {
+	flex: 2 1 0;
+	min-width: 0;
+	min-height: 0;
+	position: relative;
+}
+
+little-planet.loading::before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	content: "⌛";
+	font-size: 300%;
+	animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+	0% { transform: translate(-50%, -50%) rotate(0deg); }
+	100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
