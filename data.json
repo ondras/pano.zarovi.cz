@@ -279,6 +279,26 @@
   "CreateDate": 1655041322
 },
 {
+  "SourceFile": "img/20220614_173054.jpg",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLongitudeRef": "E",
+  "GPSAltitudeRef": 0,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GpsStatus": "Invalid",
+  "GPSAltitude": 208.568,
+  "GPSLatitude": 49.9987597777778,
+  "GPSLongitude": 14.4045415277778,
+  "GPSPosition": "49.9987597777778 14.4045415277778",
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -39.00,
+  "GimbalPitchDegree": "+0.00",
+  "GimbalReverse": 0,
+  "ImageDescription": "Cukrovar Modřany",
+  "CreateDate": 1655227854
+},
+{
   "SourceFile": "img/20220621_175622.jpg",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
