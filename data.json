@@ -871,10 +871,10 @@
   "GPSMapDatum": "WGS-84",
   "GpsStatus": "Invalid",
   "GPSPosition": "50.0714634722222 17.0844561666667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -148.10,
   "GimbalPitchDegree": "+9.80",
   "GimbalReverse": 0,
-  "ImageDescription": "default",
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -148.10,
+  "ImageDescription": "Chata Eliška, Loučná nad Desnou",
   "CreateDate": 1663687320
 }]
