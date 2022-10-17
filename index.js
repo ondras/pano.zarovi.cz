@@ -8,16 +8,16 @@ const map = L.map("map");
 
 let currentMarker = null;
 
-function showPano(item, marker) {
+function showPano(item, marker=null) {
 	littlePlanet.src = item["SourceFile"];
 	littlePlanet.mode = "planet";
 	littlePlanet.camera = {lat:0, lon:0}; // FIXME hfov
 	littlePlanet.classList.add("loading");
 
-	currentMarker && currentMarker._icon && currentMarker._icon.classList.remove("active");
+	if (currentMarker) { currentMarker._icon && currentMarker._icon.classList.remove("active"); }
 
 	currentMarker = marker;
-	currentMarker._icon.classList.add("active");
+	if (currentMarker) { currentMarker._icon.classList.add("active"); }
 }
 
 function buildPopup(item, marker) {
@@ -25,7 +25,10 @@ function buildPopup(item, marker) {
 
 	let name = document.createElement("strong");
 	name.textContent = item["ImageDescription"] || "n/a";
-	name.addEventListener("click", _ => showPano(item, marker));
+	name.addEventListener("click", _ => {
+		showPano(item, marker);
+		toURL(item);
+	});
 
 	let date = document.createElement("div");
 	date.append(dateFormat.format(new Date(item["CreateDate"] * 1000)));
@@ -52,6 +55,20 @@ function syncSize() {
 
 function removeLoading(e) {
 	e.target.classList.remove("loading");
+}
+
+function toURL(item) {
+	location.hash = item["SourceFile"];
+}
+
+function fromURL(items) {
+	let str = location.hash.substring(1);
+	if (!str) { return; }
+
+	let item = items.filter(item => item["SourceFile"] == str)[0];
+	if (!item) { return; }
+
+	showPano(item);
 }
 
 async function init() {
@@ -96,6 +113,8 @@ async function init() {
 	map.addLayer(topo);
 	map.addLayer(group);
 	map.fitBounds(group.getBounds());
+
+	fromURL(data);
 }
 
 init();
