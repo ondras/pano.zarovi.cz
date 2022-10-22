@@ -31,6 +31,9 @@ body {
 	cursor: pointer;
 }
 
+.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(0, 126, 255, 0.4); }
+.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background-color: rgb(57, 140, 204, 0.6); }
+
 little-planet {
 	flex: 2 1 0;
 	min-width: 0;

@@ -8,25 +8,28 @@ const map = L.map("map");
 
 let currentMarker = null;
 
-function showPano(item, marker=null) {
+function showPano(item) {
 	littlePlanet.src = item["SourceFile"];
 	littlePlanet.mode = "planet";
 	littlePlanet.camera = {lat:0, lon:0}; // FIXME hfov
 	littlePlanet.classList.add("loading");
 
-	if (currentMarker) { currentMarker._icon && currentMarker._icon.classList.remove("active"); }
+	if (currentMarker && currentMarker._icon) { currentMarker._icon.classList.remove("active"); }
+	currentMarker = item.marker;
 
-	currentMarker = marker;
-	if (currentMarker) { currentMarker._icon.classList.add("active"); }
+	if (currentMarker) {
+		if (!currentMarker._icon) { currentMarker.__parent.spiderfy(); }
+		if (currentMarker._icon) { currentMarker._icon.classList.add("active"); }
+	}
 }
 
-function buildPopup(item, marker) {
+function buildPopup(item) {
 	let frag = document.createDocumentFragment();
 
 	let name = document.createElement("strong");
 	name.textContent = item["ImageDescription"] || "n/a";
 	name.addEventListener("click", _ => {
-		showPano(item, marker);
+		showPano(item);
 		toURL(item);
 	});
 
@@ -43,7 +46,8 @@ function buildPopup(item, marker) {
 
 function itemToMarker(item) {
 	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]]);
-	marker.bindPopup(marker => buildPopup(item, marker));
+	item.marker = marker;
+	marker.bindPopup(() => buildPopup(item));
 	return marker;
 }
 
@@ -68,6 +72,8 @@ function fromURL(items) {
 	let item = items.filter(item => item["SourceFile"] == str)[0];
 	if (!item) { return; }
 
+	map.setView([item["GPSLatitude"], item["GPSLongitude"]], 17);
+	item.marker.openPopup();
 	showPano(item);
 }
 
@@ -107,7 +113,7 @@ async function init() {
 	let response = await fetch("data.json");
 	let data = await response.json();
 
-	let group = L.markerClusterGroup({showCoverageOnHover:false});
+	let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false});
 	data.map(itemToMarker).forEach(m => group.addLayer(m));
 
 	map.addLayer(topo);
