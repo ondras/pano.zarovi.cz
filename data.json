@@ -1337,4 +1337,24 @@
   "GimbalReverse": 0,
   "ImageDescription": "Lom Velká Amerika, níž",
   "CreateDate": 1682865893
+},
+{
+  "SourceFile": "img/20230430_145014.jpg",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.9563849166667,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.1903969166667,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 444.933,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GpsStatus": "Invalid",
+  "GPSPosition": "49.9563849166667 14.1903969166667",
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+151.20",
+  "GimbalPitchDegree": "+10.20",
+  "GimbalReverse": 0,
+  "ImageDescription": "Lom Mexiko",
+  "CreateDate": 1682866214
 }]
