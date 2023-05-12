@@ -1,5 +1,5 @@
 [{
-  "SourceFile": "img/20220518_200611.jpg",
+  "SourceFile": "img/20220518_200611.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0126451388889,
@@ -9,17 +9,12 @@
   "GPSAltitude": 141.614,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0126451388889 14.4128553888889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -48.00,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Na Cikorce, Modřany",
-  "CreateDate": 1652904371
+  "CreateDate": 1652897171
 },
 {
-  "SourceFile": "img/20220519_114432.jpg",
+  "SourceFile": "img/20220519_114432.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0711078055556,
@@ -29,17 +24,12 @@
   "GPSAltitude": 141.36,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0711078055556 14.4006506111111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -106.70,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Seznam.cz, Radlická",
-  "CreateDate": 1652960672
+  "CreateDate": 1652953472
 },
 {
-  "SourceFile": "img/20220522_143254.jpg",
+  "SourceFile": "img/20220522_143254.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.96505675,
@@ -49,17 +39,12 @@
   "GPSAltitude": 364.707,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.96505675 14.4730842777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+150.30",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Kamínek, Zlatníky-Hodkovice",
-  "CreateDate": 1653229974
+  "CreateDate": 1653222774
 },
 {
-  "SourceFile": "img/20220522_151103.jpg",
+  "SourceFile": "img/20220522_151103.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.9652273333333,
@@ -69,17 +54,12 @@
   "GPSAltitude": 385.403,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.9652273333333 14.4730391944444",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+156.10",
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Kamínek, Zlatníky-Hodkovice",
-  "CreateDate": 1653232263
+  "CreateDate": 1653225063
 },
 {
-  "SourceFile": "img/20220604_090759.jpg",
+  "SourceFile": "img/20220604_090759.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4041255277778,
@@ -89,17 +69,12 @@
   "GPSAltitude": 362.64,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4041255277778 14.1195353055556",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -36.10,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Velká podkova nízko",
-  "CreateDate": 1654333679
+  "CreateDate": 1654326479
 },
 {
-  "SourceFile": "img/20220604_134047.jpg",
+  "SourceFile": "img/20220604_134047.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4003064722222,
@@ -109,17 +84,12 @@
   "GPSAltitude": 372.319,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4003064722222 14.1241267222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -172.90,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Landa",
-  "CreateDate": 1654350047
+  "CreateDate": 1654342847
 },
 {
-  "SourceFile": "img/20220604_141209.jpg",
+  "SourceFile": "img/20220604_141209.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4037288333333,
@@ -129,17 +99,12 @@
   "GPSAltitude": 401.831,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4037288333333 14.1199346111111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+83.80",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Sluneční zátoka",
-  "CreateDate": 1654351929
+  "CreateDate": 1654344729
 },
 {
-  "SourceFile": "img/20220604_141437.jpg",
+  "SourceFile": "img/20220604_141437.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4039690833333,
@@ -149,17 +114,12 @@
   "GPSAltitude": 396.831,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4039690833333 14.1196198611111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+175.00",
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Velká podkova vysoko",
-  "CreateDate": 1654352077
+  "CreateDate": 1654344877
 },
 {
-  "SourceFile": "img/20220605_115105.jpg",
+  "SourceFile": "img/20220605_115105.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4035730555556,
@@ -169,17 +129,12 @@
   "GPSAltitude": 389.383,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4035730555556 14.1024094722222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+148.10",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Jezírka Jesenického potoka",
-  "CreateDate": 1654429865
+  "CreateDate": 1654422665
 },
 {
-  "SourceFile": "img/20220605_124755.jpg",
+  "SourceFile": "img/20220605_124755.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.3792460277778,
@@ -189,17 +144,12 @@
   "GPSAltitude": 425.94,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.3792460277778 14.1283161388889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -79.10,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Sanatorium Vráž",
-  "CreateDate": 1654433275
+  "CreateDate": 1654426075
 },
 {
-  "SourceFile": "img/20220610_192757.jpg",
+  "SourceFile": "img/20220610_192757.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0722389166667,
@@ -209,17 +159,12 @@
   "GPSAltitude": 139.784,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0722389166667 14.4113998055556",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -116.70,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Cargo gallery",
-  "CreateDate": 1654889277
+  "CreateDate": 1654882077
 },
 {
-  "SourceFile": "img/20220610_193109.jpg",
+  "SourceFile": "img/20220610_193109.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0695431111111,
@@ -229,17 +174,12 @@
   "GPSAltitude": 169.084,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0695431111111 14.41250575",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+65.00",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Vltava",
-  "CreateDate": 1654889469
+  "CreateDate": 1654882269
 },
 {
-  "SourceFile": "img/20220610_215155.jpg",
+  "SourceFile": "img/20220610_215155.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0722804444444,
@@ -249,17 +189,12 @@
   "GPSAltitude": 157.11,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0722804444444 14.4119172222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -95.60,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Cargo gallery at night",
-  "CreateDate": 1654897915
+  "CreateDate": 1654890715
 },
 {
-  "SourceFile": "img/20220612_134202.jpg",
+  "SourceFile": "img/20220612_134202.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.1636053055556,
@@ -269,17 +204,12 @@
   "GPSAltitude": 257.174,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.1636053055556 14.2560865277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+154.60",
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Hrad Okoř",
-  "CreateDate": 1655041322
+  "CreateDate": 1655034122
 },
 {
-  "SourceFile": "img/20220614_173054.jpg",
+  "SourceFile": "img/20220614_173054.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.9987597777778,
@@ -289,17 +219,12 @@
   "GPSAltitude": 208.568,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.9987597777778 14.4045415277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -39.00,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Cukrovar Modřany",
-  "CreateDate": 1655227854
+  "CreateDate": 1655220654
 },
 {
-  "SourceFile": "img/20220621_175622.jpg",
+  "SourceFile": "img/20220621_175622.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.9665291666667,
@@ -309,17 +234,12 @@
   "GPSAltitude": 362.596,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.9665291666667 14.4731274166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -136.20,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Strom u Kamínku",
-  "CreateDate": 1655834182
+  "CreateDate": 1655826982
 },
 {
-  "SourceFile": "img/20220625_163452.jpg",
+  "SourceFile": "img/20220625_163452.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4035903055556,
@@ -329,17 +249,12 @@
   "GPSAltitude": 472.023,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4035903055556 14.1025211944444",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+129.30",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Jezírka Jesenického potoka po dešti",
-  "CreateDate": 1656174892
+  "CreateDate": 1656167692
 },
 {
-  "SourceFile": "img/20220625_171533.jpg",
+  "SourceFile": "img/20220625_171533.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4053203333333,
@@ -349,17 +264,12 @@
   "GPSAltitude": 420.796,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4053203333333 14.1146824166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -84.90,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Wechtr",
-  "CreateDate": 1656177333
+  "CreateDate": 1656170133
 },
 {
-  "SourceFile": "img/20220626_105400.jpg",
+  "SourceFile": "img/20220626_105400.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.4083771388889,
@@ -369,17 +279,12 @@
   "GPSAltitude": 451.046,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.4083771388889 14.1138934722222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+51.80",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Pole směrem na Velkou křižovatku",
-  "CreateDate": 1656240840
+  "CreateDate": 1656233640
 },
 {
-  "SourceFile": "img/20220702_132626.jpg",
+  "SourceFile": "img/20220702_132626.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 48.1928903611111,
@@ -389,17 +294,12 @@
   "GPSAltitude": 210.751,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "48.1928903611111 14.2500100833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -40.70,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Konopné bludiště Ansfelden",
-  "CreateDate": 1656768386
+  "CreateDate": 1656761186
 },
 {
-  "SourceFile": "img/20220702_154057.jpg",
+  "SourceFile": "img/20220702_154057.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.9361363333333,
@@ -409,17 +309,12 @@
   "GPSAltitude": 415.887,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.9361363333333 13.5634453611111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -85.80,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Attersee",
-  "CreateDate": 1656776457
+  "CreateDate": 1656769257
 },
 {
-  "SourceFile": "img/20220703_123134.jpg",
+  "SourceFile": "img/20220703_123134.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.1266790277778,
@@ -429,17 +324,12 @@
   "GPSAltitude": 1886.61,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.1266790277778 13.6429715833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -147.80,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Großeck",
-  "CreateDate": 1656851494
+  "CreateDate": 1656844294
 },
 {
-  "SourceFile": "img/20220703_163406.jpg",
+  "SourceFile": "img/20220703_163406.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.1348610277778,
@@ -449,17 +339,12 @@
   "GPSAltitude": 1085.948,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.1348610277778 13.6866811666667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -52.50,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Koupaliště v Mauterndorfu",
-  "CreateDate": 1656866046
+  "CreateDate": 1656858846
 },
 {
-  "SourceFile": "img/20220703_184305.jpg",
+  "SourceFile": "img/20220703_184305.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.14961525,
@@ -469,17 +354,12 @@
   "GPSAltitude": 1041.769,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.14961525 13.7279149722222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -163.50,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Bruckdorf",
-  "CreateDate": 1656873785
+  "CreateDate": 1656866585
 },
 {
-  "SourceFile": "img/20220703_184830.jpg",
+  "SourceFile": "img/20220703_184830.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.1497066666667,
@@ -489,17 +369,12 @@
   "GPSAltitude": 1129.969,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.1497066666667 13.7278358333333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+20.90",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Bruckdorf",
-  "CreateDate": 1656874110
+  "CreateDate": 1656866910
 },
 {
-  "SourceFile": "img/20220704_104311.jpg",
+  "SourceFile": "img/20220704_104311.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.1527766666667,
@@ -509,17 +384,12 @@
   "GPSAltitude": 1041.607,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.1527766666667 13.7174787222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -62.60,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Lanový park Bruckdorf",
-  "CreateDate": 1656931391
+  "CreateDate": 1656924191
 },
 {
-  "SourceFile": "img/20220704_182042.jpg",
+  "SourceFile": "img/20220704_182042.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.1463603611111,
@@ -529,17 +399,12 @@
   "GPSAltitude": 1068.8,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.1463603611111 13.7374567777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+44.20",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "St. Laurentius, Althofen",
-  "CreateDate": 1656958842
+  "CreateDate": 1656951642
 },
 {
-  "SourceFile": "img/20220705_113253.jpg",
+  "SourceFile": "img/20220705_113253.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.2629125277778,
@@ -549,17 +414,12 @@
   "GPSAltitude": 1936.27,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.2629125277778 13.5490925833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -23.50,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Krummschnabelsee",
-  "CreateDate": 1657020773
+  "CreateDate": 1657013573
 },
 {
-  "SourceFile": "img/20220705_113831.jpg",
+  "SourceFile": "img/20220705_113831.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.26255825,
@@ -569,17 +429,12 @@
   "GPSAltitude": 2002.07,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.26255825 13.5437340277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -98.70,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Grünwaldsee",
-  "CreateDate": 1657021111
+  "CreateDate": 1657013911
 },
 {
-  "SourceFile": "img/20220705_140246.jpg",
+  "SourceFile": "img/20220705_140246.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.2512842000067,
@@ -589,17 +444,12 @@
   "GPSAltitude": 1328.642,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.2512842000067 13.5076631000139",
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+75.20",
   "ImageDescription": "Johanneswasserfall",
-  "CreateDate": 1657029766
+  "CreateDate": 1657022566
 },
 {
-  "SourceFile": "img/20220707_114040.jpg",
+  "SourceFile": "img/20220707_114040.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.0583293888889,
@@ -609,17 +459,12 @@
   "GPSAltitude": 1711.171,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.0583293888889 13.6187945833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -158.20,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Katschberg",
-  "CreateDate": 1657194040
+  "CreateDate": 1657186840
 },
 {
-  "SourceFile": "img/20220708_163156.jpg",
+  "SourceFile": "img/20220708_163156.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4428498333333,
@@ -629,17 +474,12 @@
   "GPSAltitude": 49.463,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4428498333333 12.4627257777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+145.80",
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Ca' Savio Beach",
-  "CreateDate": 1657297916
+  "CreateDate": 1657290716
 },
 {
-  "SourceFile": "img/20220709_200551.jpg",
+  "SourceFile": "img/20220709_200551.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4451147777778,
@@ -649,17 +489,12 @@
   "GPSAltitude": 61.38,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4451147777778 12.4619406944444",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -172.90,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Ca' Savio Pool",
-  "CreateDate": 1657397151
+  "CreateDate": 1657389951
 },
 {
-  "SourceFile": "img/20220710_195053.jpg",
+  "SourceFile": "img/20220710_195053.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4443095,
@@ -669,17 +504,12 @@
   "GPSAltitude": 90.667,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4443095 12.4625997777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -67.50,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Ca' Savio",
-  "CreateDate": 1657482653
+  "CreateDate": 1657475453
 },
 {
-  "SourceFile": "img/20220711_114738.jpg",
+  "SourceFile": "img/20220711_114738.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4381419444444,
@@ -689,17 +519,12 @@
   "GPSAltitude": 102.51,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4381419444444 12.3329595555556",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+49.70",
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Venezia",
-  "CreateDate": 1657540058
+  "CreateDate": 1657532858
 },
 {
-  "SourceFile": "img/20220711_142451.jpg",
+  "SourceFile": "img/20220711_142451.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4568155555556,
@@ -709,17 +534,12 @@
   "GPSAltitude": 105.519,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4568155555556 12.3584651666667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -140.20,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Murano",
-  "CreateDate": 1657549491
+  "CreateDate": 1657542291
 },
 {
-  "SourceFile": "img/20220711_161747.jpg",
+  "SourceFile": "img/20220711_161747.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4855095833333,
@@ -729,17 +549,12 @@
   "GPSAltitude": 40.637,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4855095833333 12.4153773611111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -48.20,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Burano",
-  "CreateDate": 1657556267
+  "CreateDate": 1657549067
 },
 {
-  "SourceFile": "img/20220713_151516.jpg",
+  "SourceFile": "img/20220713_151516.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4940371666667,
@@ -749,17 +564,12 @@
   "GPSAltitude": 48.324,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4940371666667 12.6007479722222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -99.20,
-  "GimbalPitchDegree": "+0.00",
-  "GimbalReverse": 0,
   "ImageDescription": "Caribe Bay 120m",
-  "CreateDate": 1657725316
+  "CreateDate": 1657718116
 },
 {
-  "SourceFile": "img/20220713_151635.jpg",
+  "SourceFile": "img/20220713_151635.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 45.4940449444444,
@@ -769,17 +579,12 @@
   "GPSAltitude": 12.876,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "45.4940449444444 12.6007497222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -99.10,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Caribe Bay 60m",
-  "CreateDate": 1657725395
+  "CreateDate": 1657718195
 },
 {
-  "SourceFile": "img/20220714_144237.jpg",
+  "SourceFile": "img/20220714_144237.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 46.8119155833333,
@@ -789,17 +594,12 @@
   "GPSAltitude": 680.853,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "46.8119155833333 13.5272242222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+14.10",
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Millstätter See",
-  "CreateDate": 1657809757
+  "CreateDate": 1657802557
 },
 {
-  "SourceFile": "img/20220714_183146.jpg",
+  "SourceFile": "img/20220714_183146.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.4065828611111,
@@ -809,17 +609,12 @@
   "GPSAltitude": 1661.044,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.4065828611111 14.1980461666667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -25.50,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Planneralm",
-  "CreateDate": 1657823506
+  "CreateDate": 1657816306
 },
 {
-  "SourceFile": "img/20220715_150245.jpg",
+  "SourceFile": "img/20220715_150245.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 47.3989066666667,
@@ -829,17 +624,12 @@
   "GPSAltitude": 1795.506,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "47.3989066666667 14.2060335833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -60.20,
-  "GimbalPitchDegree": "+0.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Panoramasee",
-  "CreateDate": 1657897365
+  "CreateDate": 1657890165
 },
 {
-  "SourceFile": "img/20220806_151555.jpg",
+  "SourceFile": "img/20220806_151555.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0020941388889,
@@ -849,17 +639,12 @@
   "GPSAltitude": 373.781,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0020941388889 14.3548452777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -169.50,
-  "GimbalPitchDegree": -0.10,
-  "GimbalReverse": 0,
   "ImageDescription": "Lochkov",
-  "CreateDate": 1659798955
+  "CreateDate": 1659791755
 },
 {
-  "SourceFile": "img/20220828_163905.jpg",
+  "SourceFile": "img/20220828_163905.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0126825833333,
@@ -869,17 +654,27 @@
   "GPSAltitude": 248.674,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0126825833333 14.4128483333333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+58.40",
-  "GimbalPitchDegree": "+10.10",
-  "GimbalReverse": 0,
   "ImageDescription": "Na Cikorce, Modřany",
-  "CreateDate": 1661704745
+  "CreateDate": 1661697545
 },
 {
-  "SourceFile": "img/20220920_172200.jpg",
+  "SourceFile": "img/20220904_160754.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.9649956388889,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.4731242777778,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 409.607,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "49.9649956388889 14.4731242777778",
+  "ImageDescription": "Kamínek, vysoko",
+  "CreateDate": 1662300474
+},
+{
+  "SourceFile": "img/20220920_172200.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0714634722222,
@@ -889,17 +684,12 @@
   "GPSAltitude": 605.161,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0714634722222 17.0844561666667",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -148.10,
   "ImageDescription": "Chata Eliška, Loučná nad Desnou",
-  "CreateDate": 1663694520
+  "CreateDate": 1663687320
 },
 {
-  "SourceFile": "img/20221016_134943.jpg",
+  "SourceFile": "img/20221016_134943.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.87716,
@@ -909,17 +699,12 @@
   "GPSAltitude": 555.049,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.87716 14.2542513888889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -43.00,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Klášter Skalka, Mníšek pod Brdy",
-  "CreateDate": 1665928183
+  "CreateDate": 1665920983
 },
 {
-  "SourceFile": "img/20221016_152549.jpg",
+  "SourceFile": "img/20221016_152549.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.8663735277778,
@@ -929,17 +714,12 @@
   "GPSAltitude": 454.324,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.8663735277778 14.2599889166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+76.80",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Kostel sv. Václava, Mníšek pod Brdy",
-  "CreateDate": 1665933949
+  "CreateDate": 1665926749
 },
 {
-  "SourceFile": "img/20221022_140144.jpg",
+  "SourceFile": "img/20221022_140144.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0703438333333,
@@ -949,17 +729,12 @@
   "GPSAltitude": 261.494,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0703438333333 14.3950026388889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -188.80,
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Bertramka",
-  "CreateDate": 1666447304
+  "CreateDate": 1666440104
 },
 {
-  "SourceFile": "img/20221022_145127.jpg",
+  "SourceFile": "img/20221022_145127.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0025814166667,
@@ -969,17 +744,12 @@
   "GPSAltitude": 312.51,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0025814166667 14.4500038888889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -4.30,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Modřanská rokle",
-  "CreateDate": 1666450287
+  "CreateDate": 1666443087
 },
 {
-  "SourceFile": "img/20221023_155305.jpg",
+  "SourceFile": "img/20221023_155305.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0379444722222,
@@ -989,17 +759,12 @@
   "GPSAltitude": 207.915,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0379444722222 14.4134250555556",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+173.50",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Kostel sv. Prokopa, Braník",
-  "CreateDate": 1666540385
+  "CreateDate": 1666533185
 },
 {
-  "SourceFile": "img/20221023_155503.jpg",
+  "SourceFile": "img/20221023_155503.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0379198055556,
@@ -1009,17 +774,12 @@
   "GPSAltitude": 274.415,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0379198055556 14.4135566388889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+112.60",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Braník",
-  "CreateDate": 1666540503
+  "CreateDate": 1666533303
 },
 {
-  "SourceFile": "img/20221027_145038.jpg",
+  "SourceFile": "img/20221027_145038.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7124689722222,
@@ -1029,17 +789,12 @@
   "GPSAltitude": 538.921,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7124689722222 15.1073530277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+30.40",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Hřbitov Milíře",
-  "CreateDate": 1666882238
+  "CreateDate": 1666875038
 },
 {
-  "SourceFile": "img/20221027_150809.jpg",
+  "SourceFile": "img/20221027_150809.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7132363333333,
@@ -1049,17 +804,12 @@
   "GPSAltitude": 562.934,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7132363333333 15.1044193611111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+92.20",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Rozhledna Císařský kámen",
-  "CreateDate": 1666883289
+  "CreateDate": 1666876089
 },
 {
-  "SourceFile": "img/20221027_173320.jpg",
+  "SourceFile": "img/20221027_173320.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7732851388889,
@@ -1069,17 +819,12 @@
   "GPSAltitude": 734.706,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7732851388889 15.1963105277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+124.20",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Západ nad Slovankou",
-  "CreateDate": 1666892000
+  "CreateDate": 1666884800
 },
 {
-  "SourceFile": "img/20221028_145046.jpg",
+  "SourceFile": "img/20221028_145046.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7924100277778,
@@ -1089,17 +834,12 @@
   "GPSAltitude": 843.282,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7924100277778 15.1579183055556",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+28.40",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Rozhledna Královka",
-  "CreateDate": 1666968646
+  "CreateDate": 1666961446
 },
 {
-  "SourceFile": "img/20221029_121017.jpg",
+  "SourceFile": "img/20221029_121017.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7966715277778,
@@ -1109,17 +849,12 @@
   "GPSAltitude": 742.72,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7966715277778 15.1422616388889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -126.30,
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Bedřichov",
-  "CreateDate": 1667045417
+  "CreateDate": 1667038217
 },
 {
-  "SourceFile": "img/20221029_151618.jpg",
+  "SourceFile": "img/20221029_151618.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7958896666667,
@@ -1129,17 +864,12 @@
   "GPSAltitude": 797.129,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7958896666667 15.1941301944444",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -53.10,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Josefův Důl",
-  "CreateDate": 1667056578
+  "CreateDate": 1667049378
 },
 {
-  "SourceFile": "img/20221030_094958.jpg",
+  "SourceFile": "img/20221030_094958.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7733011944444,
@@ -1149,17 +879,12 @@
   "GPSAltitude": 783.976,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7733011944444 15.1962707222222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+121.30",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Slovanka",
-  "CreateDate": 1667123398
+  "CreateDate": 1667119798
 },
 {
-  "SourceFile": "img/20221030_113514.jpg",
+  "SourceFile": "img/20221030_113514.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.72710175,
@@ -1169,17 +894,12 @@
   "GPSAltitude": 555.553,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.72710175 15.1713291666667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -178.30,
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Jablonec nad Nisou, Kostel Nejsvětějšího Srdce Ježíšova",
-  "CreateDate": 1667129714
+  "CreateDate": 1667126114
 },
 {
-  "SourceFile": "img/20221030_113745.jpg",
+  "SourceFile": "img/20221030_113745.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.7262415277778,
@@ -1189,17 +909,12 @@
   "GPSAltitude": 495.453,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.7262415277778 15.1712916111111",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -0.60,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Jablonec nad Nisou, Horní náměstí",
-  "CreateDate": 1667129865
+  "CreateDate": 1667126265
 },
 {
-  "SourceFile": "img/20221119_093824.jpg",
+  "SourceFile": "img/20221119_093824.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.012631,
@@ -1209,17 +924,12 @@
   "GPSAltitude": 258.638,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.012631 14.4127997777778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+47.40",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Sníh Na Cikorce, Modřany,",
-  "CreateDate": 1668850704
+  "CreateDate": 1668847104
 },
 {
-  "SourceFile": "img/20230101_000651.jpg",
+  "SourceFile": "img/20230101_000651.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.0126980277778,
@@ -1229,17 +939,12 @@
   "GPSAltitude": 290.424,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.0126980277778 14.4129048888889",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -119.00,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Silvestr Na Cikorce, Modřany",
-  "CreateDate": 1672531611
+  "CreateDate": 1672528011
 },
 {
-  "SourceFile": "img/20230119_095228.jpg",
+  "SourceFile": "img/20230119_095228.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.6706808888889,
@@ -1249,17 +954,12 @@
   "GPSAltitude": 1004.402,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.6706808888889 15.5524330277778",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -106.40,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Penzion Petr, Benecko",
-  "CreateDate": 1674121948
+  "CreateDate": 1674118348
 },
 {
-  "SourceFile": "img/20230119_105052.jpg",
+  "SourceFile": "img/20230119_105052.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.6673433611111,
@@ -1269,17 +969,12 @@
   "GPSAltitude": 914.929,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.6673433611111 15.5467823333333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+163.90",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Family Aréna, Benecko",
-  "CreateDate": 1674125452
+  "CreateDate": 1674121852
 },
 {
-  "SourceFile": "img/20230119_105438.jpg",
+  "SourceFile": "img/20230119_105438.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 50.66666225,
@@ -1289,17 +984,12 @@
   "GPSAltitude": 1013.329,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "50.66666225 15.5489279722222",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+116.90",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Benecko",
-  "CreateDate": 1674125678
+  "CreateDate": 1674122078
 },
 {
-  "SourceFile": "img/20230430_144313.jpg",
+  "SourceFile": "img/20230430_144313.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.959025,
@@ -1309,17 +999,12 @@
   "GPSAltitude": 390.833,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.959025 14.1970400833333",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+62.30",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Lom Velká Amerika, výš",
-  "CreateDate": 1682865793
+  "CreateDate": 1682858593
 },
 {
-  "SourceFile": "img/20230430_144453.jpg",
+  "SourceFile": "img/20230430_144453.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.9590272777778,
@@ -1329,17 +1014,12 @@
   "GPSAltitude": 314.933,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.9590272777778 14.1970379166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+62.30",
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Lom Velká Amerika, níž",
-  "CreateDate": 1682865893
+  "CreateDate": 1682858693
 },
 {
-  "SourceFile": "img/20230430_145014.jpg",
+  "SourceFile": "img/20230430_145014.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.9563849166667,
@@ -1349,17 +1029,12 @@
   "GPSAltitude": 444.933,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.9563849166667 14.1903969166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+151.20",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Lom Mexiko",
-  "CreateDate": 1682866214
+  "CreateDate": 1682859014
 },
 {
-  "SourceFile": "img/20230506_180516.jpg",
+  "SourceFile": "img/20230506_180516.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.0299321944444,
@@ -1369,17 +1044,12 @@
   "GPSAltitude": 423.309,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.0299321944444 12.2071631944444",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": -4.90,
-  "GimbalPitchDegree": "+9.80",
-  "GimbalReverse": 0,
   "ImageDescription": "Donaustauf, nad kostelem",
-  "CreateDate": 1683396316
+  "CreateDate": 1683389116
 },
 {
-  "SourceFile": "img/20230506_180804.jpg",
+  "SourceFile": "img/20230506_180804.webp",
   "GPSVersionID": "2 3 0 0",
   "GPSLatitudeRef": "N",
   "GPSLatitude": 49.0303203055556,
@@ -1389,12 +1059,7 @@
   "GPSAltitude": 454.209,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSPosition": "49.0303203055556 12.2069394166667",
-  "GimbalRollDegree": "+0.00",
-  "GimbalYawDegree": "+8.90",
-  "GimbalPitchDegree": "+10.20",
-  "GimbalReverse": 0,
   "ImageDescription": "Donaustauf, nad zříceninou",
-  "CreateDate": 1683396484
+  "CreateDate": 1683389284
 }]
