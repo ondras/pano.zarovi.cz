@@ -45,7 +45,7 @@ function buildPopup(item) {
 }
 
 function itemToMarker(item) {
-	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]]);
+	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || ""});
 	item.marker = marker;
 	marker.bindPopup(() => buildPopup(item));
 	return marker;
