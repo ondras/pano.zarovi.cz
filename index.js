@@ -26,12 +26,12 @@ function showPano(item) {
 function buildPopup(item) {
 	let frag = document.createDocumentFragment();
 
-	let name = document.createElement("strong");
+	let name = document.createElement("a");
+	let url = new URL(location.href);
+	url.hash = item["SourceFile"];
+	name.href = url.href;
 	name.textContent = item["ImageDescription"] || "n/a";
-	name.addEventListener("click", _ => {
-		showPano(item);
-		toURL(item);
-	});
+	name.addEventListener("click", _ => showPano(item));
 
 	let date = document.createElement("div");
 	date.append(dateFormat.format(new Date(item["CreateDate"] * 1000)));
