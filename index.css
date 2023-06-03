@@ -24,11 +24,10 @@ body {
 	filter: hue-rotate(150deg);
 }
 
-.leaflet-popup-content strong {
+.leaflet-popup-content a {
 	font-size: 116.667%;
-	text-decoration: underline;
+	font-weight: bold;
 	color: dodgerblue;
-	cursor: pointer;
 }
 
 .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(0, 126, 255, 0.4); }
