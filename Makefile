@@ -3,7 +3,7 @@ DIR := img
 all: data.json
 
 webp:
-	for i in *.jpg; do convert -quality 75 -define webp:method=6 "$$i" "$$i".webp; exiftool -tagsfromfile "$$i" "$$i".webp; done
+	for i in *.jpg; do convert -quality 75 -define webp:method=6 "$$i" "$$i".webp; exiftool -overwrite_original -tagsfromfile "$$i" "$$i".webp; done
 
 data.json: img rename
 	exiftool -d %s -gps*# -gimbal* -imagedescription -createdate -json $(DIR)/* > $@
