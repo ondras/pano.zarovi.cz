@@ -1194,4 +1194,23 @@
   "GimbalYawDegree": -95.90,
   "ImageDescription": "Skatepark a studio Bubec, Řeporyje",
   "CreateDate": 1687015135
+},
+{
+  "SourceFile": "img/20230625_111152.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.406892166625,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.1814991666667,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 432.4,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "49.406892166625 14.1814991666667",
+  "GimbalPitchDegree": "+10.20",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": -0.10,
+  "GimbalYawDegree": "+92.90",
+  "ImageDescription": "Soutok Lomnice a Otavy",
+  "CreateDate": 1687691512
 }]
