@@ -113,7 +113,7 @@ async function init() {
 	let response = await fetch("data.json");
 	let data = await response.json();
 
-	let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false});
+	let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false, maxClusterRadius:40});
 	data.map(itemToMarker).forEach(m => group.addLayer(m));
 
 	map.addLayer(topo);
