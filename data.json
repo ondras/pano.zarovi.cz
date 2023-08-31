@@ -1460,4 +1460,23 @@
   "GimbalYawDegree": -13.80,
   "ImageDescription": "Mondsee",
   "CreateDate": 1690560779
+},
+{
+  "SourceFile": "img/20230817_111640.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.4172067222222,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.1893594166722,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 444.7,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "49.4172067222222 14.1893594166722",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+65.90",
+  "ImageDescription": "Svatá Anna, Oslov",
+  "CreateDate": 1692271000
 }]
