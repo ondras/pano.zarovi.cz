@@ -1479,4 +1479,23 @@
   "GimbalYawDegree": "+65.90",
   "ImageDescription": "Svatá Anna, Oslov",
   "CreateDate": 1692271000
+},
+{
+  "SourceFile": "img/20230917_163856.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.9622772222222,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.4079673611111,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 504.2,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "49.9622772222222 14.4079673611111",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+116.10",
+  "ImageDescription": "Rozhledna Závist, Dolní Břežany",
+  "CreateDate": 1694968736
 }]
