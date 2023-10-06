@@ -10,8 +10,6 @@ let currentMarker = null;
 
 function showPano(item) {
 	littlePlanet.src = item["SourceFile"];
-	littlePlanet.mode = "planet";
-	littlePlanet.camera = {lat:0, lon:0}; // FIXME hfov
 	littlePlanet.classList.add("loading");
 
 	if (currentMarker && currentMarker._icon) { currentMarker._icon.classList.remove("active"); }
@@ -59,10 +57,6 @@ function syncSize() {
 
 function removeLoading(e) {
 	e.target.classList.remove("loading");
-}
-
-function toURL(item) {
-	location.hash = item["SourceFile"];
 }
 
 function fromURL(items) {
