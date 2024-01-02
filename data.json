@@ -1593,4 +1593,23 @@
   "GimbalYawDegree": "+49.70",
   "ImageDescription": "Roztoky u Prahy",
   "CreateDate": 1699196513
+},
+{
+  "SourceFile": "img/20231229_112207.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 50.7903054722639,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 15.2182723888889,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 858.4,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "50.7903054722639 15.2182723888889",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+29.90",
+  "ImageDescription": "Čertovy kameny, Josefův Důl",
+  "CreateDate": 1703848927
 }]
