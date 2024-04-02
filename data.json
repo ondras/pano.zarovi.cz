@@ -1688,4 +1688,23 @@
   "GimbalYawDegree": -39.80,
   "ImageDescription": "Schneiderkogel",
   "CreateDate": 1708259664
+},
+{
+  "SourceFile": "img/20240401_163830.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 50.0022557222222,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.3276463611361,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 528.3,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "50.0022557222222 14.3276463611361",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+45.80",
+  "ImageDescription": "Mramorový lom Cikánka",
+  "CreateDate": 1711989510
 }]
