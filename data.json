@@ -2163,4 +2163,23 @@
   "GimbalYawDegree": "+0.20",
   "ImageDescription": "Acharavi",
   "CreateDate": 1721841876
+},
+{
+  "SourceFile": "img/20240907_115752.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 50.2433900833333,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.6678003333333,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 359.5,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "50.2433900833333 14.6678003333333",
+  "GimbalPitchDegree": "+10.10",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -171.10,
+  "ImageDescription": "Jezero Lhota",
+  "CreateDate": 1725710272
 }]
