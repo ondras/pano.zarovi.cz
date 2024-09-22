@@ -2182,4 +2182,23 @@
   "GimbalYawDegree": -171.10,
   "ImageDescription": "Jezero Lhota",
   "CreateDate": 1725710272
+},
+{
+  "SourceFile": "img/20240922_114611.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLatitude": 49.5130836389028,
+  "GPSLongitudeRef": "E",
+  "GPSLongitude": 14.1704052222222,
+  "GPSAltitudeRef": 0,
+  "GPSAltitude": 521.4,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSPosition": "49.5130836389028 14.1704052222222",
+  "GimbalPitchDegree": "+10.20",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -35.70,
+  "ImageDescription": "Orlík",
+  "CreateDate": 1727005571
 }]
