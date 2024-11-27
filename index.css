@@ -16,10 +16,6 @@ body {
 	flex: 1 1 0;
 }
 
-.leaflet-marker-icon.active {
-	filter: hue-rotate(150deg);
-}
-
 .leaflet-popup-content a {
 	font-size: 116.667%;
 	font-weight: bold;
