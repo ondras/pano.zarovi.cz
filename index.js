@@ -1,4 +1,5 @@
 import { MAPTILER_KEY } from "./config.js";
+import PanoIcon, { SIZE as ICON_SIZE } from "./pano-icon.js";
 
 
 const DPR = devicePixelRatio;
@@ -6,19 +7,21 @@ const dateFormat = new Intl.DateTimeFormat([], {dateStyle:"medium", timeStyle:"s
 const littlePlanet = document.querySelector("little-planet");
 const map = L.map("map");
 
-let currentMarker = null;
+let currentItem = null;
 
 function showPano(item) {
 	littlePlanet.src = item["SourceFile"];
-	littlePlanet.classList.add("loading");
 
-	if (currentMarker && currentMarker._icon) { currentMarker._icon.classList.remove("active"); }
-	currentMarker = item.marker;
-
-	if (currentMarker) {
-		if (!currentMarker._icon) { currentMarker.__parent.spiderfy(); }
-		if (currentMarker._icon) { currentMarker._icon.classList.add("active"); }
+	if (currentItem) {
+		let { marker, panoIcon } = currentItem;
+		if (marker._icon) { marker._icon.classList.remove("active"); }
+		panoIcon.hideFov();
 	}
+
+	currentItem = item;
+	let { marker } = item;
+	if (!marker._icon) { marker.__parent.spiderfy(); }
+	if (marker._icon) { marker._icon.classList.add("active"); }
 }
 
 function buildPopup(item) {
@@ -38,13 +41,15 @@ function buildPopup(item) {
 	altitude.append(`Altitude: ${item["GPSAltitude"]} m`);
 
 	frag.append(name, date, altitude);
-
 	return frag;
 }
 
 function itemToMarker(item) {
-	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || ""});
+	let panoIcon = new PanoIcon();
+	let icon = L.divIcon({html:panoIcon, iconSize:[ICON_SIZE, ICON_SIZE], className:""});
+	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || "", icon});
 	item.marker = marker;
+	item.panoIcon = panoIcon;
 	marker.bindPopup(() => buildPopup(item));
 	return marker;
 }
@@ -53,10 +58,6 @@ function syncSize() {
 	littlePlanet.width = littlePlanet.clientWidth * DPR;
 	littlePlanet.height = littlePlanet.clientHeight * DPR;
 	map.invalidateSize();
-}
-
-function removeLoading(e) {
-	e.target.classList.remove("loading");
 }
 
 function fromURL(items) {
@@ -71,13 +72,7 @@ function fromURL(items) {
 	showPano(item);
 }
 
-async function init() {
-	window.addEventListener("resize", syncSize);
-	syncSize();
-
-	littlePlanet.addEventListener("load", removeLoading);
-	littlePlanet.addEventListener("error", removeLoading);
-
+function addLayers() {
 	let osm = L.tileLayer(`https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`, {
 		maxZoom: 19,
 		attribution: `© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>`
@@ -103,6 +98,13 @@ async function init() {
 		"Satellite": satellite
 	};
 	L.control.layers(layers).addTo(map);
+	map.addLayer(topo);
+}
+
+async function init() {
+	window.addEventListener("resize", syncSize);
+	syncSize();
+	addLayers();
 
 	let response = await fetch("data.json");
 	let data = await response.json();
@@ -110,9 +112,31 @@ async function init() {
 	let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false, maxClusterRadius:40});
 	data.map(itemToMarker).forEach(m => group.addLayer(m));
 
-	map.addLayer(topo);
 	map.addLayer(group);
-	map.fitBounds(group.getBounds());
+
+	let bounds = group.getBounds();
+	if (bounds.isValid()) {
+		map.fitBounds(bounds);
+	} else {
+		map.setView([0, 0], 2);
+	}
+
+	littlePlanet.addEventListener("change", e => {
+		if (!currentItem) { return; }
+		if (!("FlightYawDegree" in currentItem)) { return; }
+
+		const { mode, camera } = e.target;
+		switch (mode) {
+			case "pano":
+				let angle = camera.lon + currentItem["FlightYawDegree"];
+				currentItem.panoIcon.drawFov(angle, camera.fov);
+			break;
+
+			case "planet":
+				currentItem.panoIcon.hideFov();
+			break;
+		}
+	});
 
 	fromURL(data);
 }
