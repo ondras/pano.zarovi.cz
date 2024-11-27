@@ -112,7 +112,13 @@ async function init() {
 
 	map.addLayer(topo);
 	map.addLayer(group);
-	map.fitBounds(group.getBounds());
+
+	let bounds = group.getBounds();
+	if (bounds.isValid()) {
+		map.fitBounds(bounds);
+	} else {
+		map.setView([0, 0], 2);
+	}
 
 	fromURL(data);
 }
