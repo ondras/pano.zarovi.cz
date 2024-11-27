@@ -1,19 +1,15 @@
 body {
 	margin: 0;
 	display: flex;
-	height: 100vh;
-}
+	height: 100dvh;
 
-@supports (height: 100dvh) {
-	body { height: 100dvh; }
-}
+	@media (orientation: portrait) {
+		flex-direction: column;
+	}
 
-@media (orientation: portrait) {
-	body { flex-direction: column;	}
-}
-
-@media (orientation: landscape) {
-	body { flex-direction: row;	}
+	@media (orientation: landscape) {
+		flex-direction: row;
+	}
 }
 
 #map {
@@ -38,15 +34,15 @@ little-planet {
 	min-width: 0;
 	min-height: 0;
 	position: relative;
-}
 
-little-planet.loading::before {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	content: "⌛";
-	font-size: 300%;
-	animation: rotate 3s linear infinite;
+	&:state(loading)::before {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		content: "⌛";
+		font-size: 300%;
+		animation: rotate 3s linear infinite;
+	}
 }
 
 @keyframes rotate {
