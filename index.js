@@ -46,7 +46,9 @@ function buildPopup(item) {
 
 function itemToMarker(item) {
 	let panoIcon = new PanoIcon();
-	let icon = L.divIcon({html:panoIcon, iconSize:[ICON_SIZE, ICON_SIZE], className:""});
+	let iconSize = [ICON_SIZE, ICON_SIZE];
+	let popupAnchor = [0, -ICON_SIZE/2];
+	let icon = L.divIcon({html:panoIcon, popupAnchor, iconSize, className:""});
 	let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || "", icon});
 	item.marker = marker;
 	item.panoIcon = panoIcon;
@@ -128,7 +130,7 @@ async function init() {
 		const { mode, camera } = e.target;
 		switch (mode) {
 			case "pano":
-				let angle = camera.lon + currentItem["FlightYawDegree"];
+				let angle = camera.lon + Number(currentItem["FlightYawDegree"]);
 				currentItem.panoIcon.drawFov(angle, camera.fov);
 			break;
 

@@ -17,7 +17,8 @@ pano-icon {
 		position: relative;
 		display: block;
 		path {
-			fill: orange;
+			fill: dodgerblue;
+			.leaflet-marker-icon.active & { fill: orange; }
 		}
 	}
 }
