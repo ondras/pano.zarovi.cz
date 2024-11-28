@@ -59,7 +59,8 @@ function createIcon() {
 	svg.setAttribute("width", SIZE);
 	svg.setAttribute("height", SIZE);
 	let path = document.createElementNS(SVGNS, "path");
-	const R1 = SIZE/2;
+	path.setAttribute("transform", "translate(1 1)");
+	const R1 = SIZE/2 - 1;
 	const R2 = R1 - 6;
 	path.setAttribute("d", `
 		M ${0} ${R1}
