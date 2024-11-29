@@ -1,13 +1,17 @@
 import { MAPTILER_KEY } from "./config.js";
 import PanoIcon, { SIZE as ICON_SIZE } from "./pano-icon.js";
+import PanoNear from "./pano-near.js";
 
 
 const DPR = devicePixelRatio;
 const dateFormat = new Intl.DateTimeFormat([], {dateStyle:"medium", timeStyle:"short"});
 const littlePlanet = document.querySelector("little-planet");
+const scene = document.querySelector("#scene");
 const map = L.map("map");
 
 let currentItem = null;
+let allItems = [];
+let nearNodes = [];
 
 function showPano(item) {
 	littlePlanet.src = item["SourceFile"];
@@ -18,10 +22,20 @@ function showPano(item) {
 		panoIcon.hideFov();
 	}
 
+	nearNodes.forEach(node => node.remove());
+
 	currentItem = item;
 	let { marker } = item;
 	if (!marker._icon) { marker.__parent.spiderfy(); }
 	if (marker._icon) { marker._icon.classList.add("active"); }
+
+	nearNodes = allItems
+					.map(item => new PanoNear(item, currentItem))
+					.filter(node => node.distance < 5*1000);
+	nearNodes.forEach(node => {
+		node.addEventListener("click", _ => showPano(node.target));
+	});
+	scene.append(...nearNodes);
 }
 
 function buildPopup(item) {
@@ -62,11 +76,11 @@ function syncSize() {
 	map.invalidateSize();
 }
 
-function fromURL(items) {
+function fromURL() {
 	let str = location.hash.substring(1);
 	if (!str) { return; }
 
-	let item = items.filter(item => item["SourceFile"] == str)[0];
+	let item = allItems.filter(item => item["SourceFile"] == str)[0];
 	if (!item) { return; }
 
 	map.setView([item["GPSLatitude"], item["GPSLongitude"]], 17);
@@ -103,17 +117,36 @@ function addLayers() {
 	map.addLayer(topo);
 }
 
+function onPanoChange(e) {
+	if (!currentItem) { return; }
+	if (!("FlightYawDegree" in currentItem)) { return; }
+
+	const { mode, camera } = e.target;
+
+	switch (mode) {
+		case "pano":
+			let angle = camera.lon + Number(currentItem["FlightYawDegree"]);
+			currentItem.panoIcon.drawFov(angle, camera.fov);
+		break;
+
+		case "planet":
+			currentItem.panoIcon.hideFov();
+		break;
+	}
+
+	nearNodes.forEach(node => node.updatePosition(e.target));
+}
+
 async function init() {
 	window.addEventListener("resize", syncSize);
 	syncSize();
 	addLayers();
 
 	let response = await fetch("data.json");
-	let data = await response.json();
+	allItems = await response.json();
 
 	let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false, maxClusterRadius:40});
-	data.map(itemToMarker).forEach(m => group.addLayer(m));
-
+	allItems.map(itemToMarker).forEach(m => group.addLayer(m));
 	map.addLayer(group);
 
 	let bounds = group.getBounds();
@@ -123,24 +156,9 @@ async function init() {
 		map.setView([0, 0], 2);
 	}
 
-	littlePlanet.addEventListener("change", e => {
-		if (!currentItem) { return; }
-		if (!("FlightYawDegree" in currentItem)) { return; }
+	littlePlanet.addEventListener("change", onPanoChange);
 
-		const { mode, camera } = e.target;
-		switch (mode) {
-			case "pano":
-				let angle = camera.lon + Number(currentItem["FlightYawDegree"]);
-				currentItem.panoIcon.drawFov(angle, camera.fov);
-			break;
-
-			case "planet":
-				currentItem.panoIcon.hideFov();
-			break;
-		}
-	});
-
-	fromURL(data);
+	fromURL();
 }
 
 init();
