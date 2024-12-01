@@ -1,0 +1,27 @@
+pano-scene {
+	display: block;
+	flex: 2 1 0;
+	min-width: 0;
+	min-height: 0;
+	position: relative;
+
+	little-planet {
+		display: block;
+		width: 100%;
+		height: 100%;
+
+		&:state(loading)::before {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			content: "⌛";
+			font-size: 300%;
+			animation: rotate 3s linear infinite;
+		}
+	}
+}
+
+@keyframes rotate {
+	0% { transform: translate(-50%, -50%) rotate(0deg); }
+	100% { transform: translate(-50%, -50%) rotate(360deg); }
+}

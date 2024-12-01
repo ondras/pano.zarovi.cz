@@ -13,21 +13,17 @@
 		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1/dist/MarkerCluster.css" />
 		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1/dist/MarkerCluster.Default.css" />
 
-		<link rel="stylesheet" href="index.css" />
-		<link rel="stylesheet" href="pano-scene.css" />
-		<link rel="stylesheet" href="pano-icon.css" />
-		<link rel="stylesheet" href="pano-near.css" />
+		<link rel="stylesheet" href="components/pano-scene.css" />
+		<link rel="stylesheet" href="components/pano-icon.css" />
+		<link rel="stylesheet" href="components/pano-near.css" />
+		<link rel="stylesheet" href="components/pano-app.css" />
+		<link rel="stylesheet" href="components/pano-map.css" />
+
 		<link rel="icon" href="https://emojimage.deno.dev/🌍" />
 	</head>
 
 	<body>
-		<div id="map"></div>
-		<pano-scene></pano-scene>
-		<!--
-		<div id="scene">
-			<little-planet></little-planet>
-		</div>
-		-->
-		<script type="module" src="index.js"></script>
+		<pano-app></pano-map>
+		<script type="module" src="components/pano-app.js"></script>
 	</body>
 </html>

@@ -1,0 +1,26 @@
+pano-icon {
+	display: block;
+	position: relative;
+
+	.fov {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		translate: -50% -50%;
+		pointer-events: none;
+		path {
+			fill: url(#fov);
+		}
+	}
+
+	.icon {
+		position: relative;
+		display: block;
+		path {
+			stroke: rgba(0, 0, 0, 0.75);
+			fill: dodgerblue;
+		}
+	}
+
+	&.active .icon path { fill: orange; }
+}
