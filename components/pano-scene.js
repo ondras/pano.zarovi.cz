@@ -7,6 +7,7 @@ const NEAR_LIMIT = 5000;
 export default class PanoScene extends HTMLElement {
 	#lp;
 	#item;
+	#panoIcon;
 	#near = new Map();
 
 	constructor() {
@@ -14,10 +15,11 @@ export default class PanoScene extends HTMLElement {
 		new ResizeObserver(_ => this.#lp && this.#syncSize()).observe(this);
 	}
 
-	show(item, allItems) {
+	show(item, allItems, panoIcon) {
 		let littlePlanet = document.createElement("little-planet");
 		littlePlanet.src = item["SourceFile"];
 		this.#lp = littlePlanet;
+		this.#panoIcon = panoIcon;
 
 		// fixme odebrat
 		littlePlanet.addEventListener("change", e => this.#onPanoChange(e));
@@ -46,16 +48,16 @@ export default class PanoScene extends HTMLElement {
 		this.#syncSize();
 	}
 
-	#syncSize() { // fixme resizeobserver
-		const lp = this.#lp;
-		lp.width = lp.clientWidth * DPR;
-		lp.height = lp.clientHeight * DPR;
-	}
-
 	highlight(item) {
 		for (let [i, near] of this.#near.entries()) {
 			near.classList.toggle("highlight", i == item);
 		}
+	}
+
+	#syncSize() {
+		const lp = this.#lp;
+		lp.width = lp.clientWidth * DPR;
+		lp.height = lp.clientHeight * DPR;
 	}
 
 	#dispatch(type, item) {
@@ -71,11 +73,11 @@ export default class PanoScene extends HTMLElement {
 		switch (mode) {
 			case "pano":
 				let angle = camera.lon + Number(this.#item["FlightYawDegree"]);
-				this.#item.panoIcon.drawFov(angle, camera.fov);
+				this.#panoIcon.drawFov(angle, camera.fov);
 			break;
 
 			case "planet":
-				this.#item.panoIcon.hideFov();
+				this.#panoIcon.hideFov();
 			break;
 		}
 

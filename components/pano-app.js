@@ -14,8 +14,15 @@ export default class PanoApp extends HTMLElement {
 			this.show(e.detail.item, {center:false, popup:false});
 		});
 
+		this.#scene.addEventListener("pano-click", e => {
+			this.show(e.detail.item, {center:true, popup:true});
+		});
+
 		this.#map.addEventListener("pano-over", e => this.#highlight(e.detail.item));
 		this.#map.addEventListener("pano-out", e => this.#highlight(null));
+
+		this.#scene.addEventListener("pano-over", e => this.#highlight(e.detail.item));
+		this.#scene.addEventListener("pano-out", e => this.#highlight(null));
 	}
 
 	connectedCallback() {
@@ -25,7 +32,8 @@ export default class PanoApp extends HTMLElement {
 
 	show(item, options) {
 		this.#map.activate(item, options);
-		this.#scene.show(item, this.#items);
+		let panoIcon = this.#map.getIcon(item);
+		this.#scene.show(item, this.#items, panoIcon);
 	}
 
 	#highlight(item) {

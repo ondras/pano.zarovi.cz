@@ -3,15 +3,16 @@ pano-near {
 	position: absolute;
 	translate: -50% -50%;
 	cursor: pointer;
+	--color: dodgerblue;
+	transition: opacity 300ms;
 
 	.icon {
 		display: block;
 		path {
-			stroke: rgba(0, 0, 0, 0.75);
-			fill: dodgerblue;
-			.leaflet-marker-icon.active & { fill: orange; }
+			stroke: #000;
+			fill: var(--color);
 		}
 	}
 
-	&:hover .icon path { fill: orange; }
+	&:not(.highlight):not(.active) { opacity: 0.7; }
 }

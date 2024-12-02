@@ -64,6 +64,8 @@ export default class PanoMap extends HTMLElement {
 		}
 	}
 
+	getIcon(item) { return this.#panoIcons.get(item); }
+
 	activate(item, options) {
 		if (options.center) { this.#map.setView([item["GPSLatitude"], item["GPSLongitude"]], 17); }
 
@@ -115,7 +117,6 @@ export default class PanoMap extends HTMLElement {
 		let icon = L.divIcon({html:panoIcon, popupAnchor, iconSize, className:""});
 		let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || "", icon});
 
-		item.panoIcon = panoIcon;
 		marker.bindPopup(() => this.#buildPopup(item));
 
 		panoIcon.addEventListener("mouseenter", _ => this.#dispatch("pano-over", item));
