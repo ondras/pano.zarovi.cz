@@ -1,3 +1,7 @@
+@import url("pano-map.css");
+@import url("pano-scene.css");
+
+
 body {
 	margin: 0;
 	height: 100dvh;

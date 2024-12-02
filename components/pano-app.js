@@ -21,8 +21,6 @@ export default class PanoApp extends HTMLElement {
 	connectedCallback() {
 		this.replaceChildren(this.#map, this.#scene);
 		this.#load();
-
-		window.addEventListener("resize", _ => this.#syncSize());
 	}
 
 	show(item, options) {
@@ -40,11 +38,6 @@ export default class PanoApp extends HTMLElement {
 		this.#items = await response.json();
 		this.#map.showItems(this.#items);
 		this.#fromURL();
-	}
-
-	#syncSize() {
-		this.#scene.syncSize();
-		this.#map.invalidateSize();
 	}
 
 	#fromURL() {

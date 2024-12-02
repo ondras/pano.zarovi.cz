@@ -40,6 +40,7 @@ export default class PanoMap extends HTMLElement {
 
 	constructor() {
 		super();
+		new ResizeObserver(_ => this.#map.invalidateSize()).observe(this);
 	}
 
 	connectedCallback() {
@@ -80,10 +81,6 @@ export default class PanoMap extends HTMLElement {
 		for (let [i, panoIcon] of this.#panoIcons.entries()) {
 			panoIcon.classList.toggle("highlight", i == item);
 		}
-	}
-
-	syncSize() { // fixme resizeobserver
-		this.#map.invalidateSize();
 	}
 
 	#dispatch(type, item) {

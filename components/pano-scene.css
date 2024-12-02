@@ -1,3 +1,6 @@
+@import url("pano-near.css");
+
+
 pano-scene {
 	display: block;
 	flex: 2 1 0;
