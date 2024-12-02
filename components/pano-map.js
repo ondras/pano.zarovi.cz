@@ -51,9 +51,13 @@ export default class PanoMap extends HTMLElement {
 
 	showItems(items) {
 		this.#markers.clear();
+		this.#panoIcons.clear();
 
 		let group = L.markerClusterGroup({showCoverageOnHover:false, animate:false, maxClusterRadius:40});
-		items.map(item => this.#buildMarker(item)).forEach(m => group.addLayer(m));
+
+		for (let item of items) { this.#buildMarker(item); }
+		for (let marker of this.#markers.values()) { group.addLayer(marker); }
+
 		this.#map.addLayer(group);
 
 		let bounds = group.getBounds();
@@ -112,20 +116,17 @@ export default class PanoMap extends HTMLElement {
 
 	#buildMarker(item) {
 		let panoIcon = new PanoIcon();
+		panoIcon.addEventListener("mouseenter", _ => this.#dispatch("pano-over", item));
+		panoIcon.addEventListener("mouseleave", _ => this.#dispatch("pano-out", item));
+
 		let iconSize = [ICON_SIZE, ICON_SIZE];
 		let popupAnchor = [0, -ICON_SIZE/2];
 		let icon = L.divIcon({html:panoIcon, popupAnchor, iconSize, className:""});
 		let marker = L.marker([item["GPSLatitude"], item["GPSLongitude"]], {title:item["ImageDescription"] || "", icon});
-
 		marker.bindPopup(() => this.#buildPopup(item));
-
-		panoIcon.addEventListener("mouseenter", _ => this.#dispatch("pano-over", item));
-		panoIcon.addEventListener("mouseleave", _ => this.#dispatch("pano-out", item));
 
 		this.#markers.set(item, marker);
 		this.#panoIcons.set(item, panoIcon);
-
-		return marker;
 	}
 }
 customElements.define("pano-map", PanoMap);
