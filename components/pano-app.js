@@ -11,11 +11,11 @@ export default class PanoApp extends HTMLElement {
 		super();
 
 		this.#map.addEventListener("pano-click", e => {
-			this.show(e.detail.item, {center:false, popup:false});
+			this.show(e.detail.item, "map");
 		});
 
 		this.#scene.addEventListener("pano-click", e => {
-			this.show(e.detail.item, {center:true, popup:true});
+			this.show(e.detail.item, "scene");
 		});
 
 		this.#map.addEventListener("pano-over", e => this.#highlight(e.detail.item));
@@ -30,10 +30,19 @@ export default class PanoApp extends HTMLElement {
 		this.#load();
 	}
 
-	show(item, options) {
-		this.#map.activate(item, options);
-		let panoIcon = this.#map.getIcon(item);
-		this.#scene.show(item, this.#items, panoIcon);
+	show(item, activator) {
+		let mapOptions = {
+			center: (activator == "scene" || activator == "url"),
+			popup: (activator == "scene" || activator == "url")
+		}
+		this.#map.activate(item, mapOptions);
+
+		let sceneOptions = {
+			panoIcon: this.#map.getIcon(item),
+			items: this.#items,
+			heading: (activator == "scene" ? this.#scene.heading : null)
+		}
+		this.#scene.show(item, sceneOptions);
 	}
 
 	#highlight(item) {
@@ -44,6 +53,7 @@ export default class PanoApp extends HTMLElement {
 	async #load() {
 		let response = await fetch("data.json");
 		this.#items = await response.json();
+		// FIXME validate key props
 		this.#map.showItems(this.#items);
 		this.#fromURL();
 	}
@@ -55,7 +65,7 @@ export default class PanoApp extends HTMLElement {
 		let item = this.#items.filter(item => item["SourceFile"] == str)[0];
 		if (!item) { return; }
 
-		this.show(item, {center:true, popup:true});
+		this.show(item, "url", );
 	}
 
 }

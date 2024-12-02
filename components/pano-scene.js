@@ -15,24 +15,19 @@ export default class PanoScene extends HTMLElement {
 		new ResizeObserver(_ => this.#lp && this.#syncSize()).observe(this);
 	}
 
-	show(item, allItems, panoIcon) {
-		let littlePlanet = document.createElement("little-planet");
-		littlePlanet.src = item["SourceFile"];
-		this.#lp = littlePlanet;
-		this.#panoIcon = panoIcon;
+	get heading() {
+		return this.#lp.camera.lon + Number(this.#item["FlightYawDegree"]);
+	}
 
-		// fixme odebrat
-		littlePlanet.addEventListener("change", e => this.#onPanoChange(e));
-
-		if (this.#item) {
-			let { panoIcon } = this.#item;
-			panoIcon.hideFov();
-		}
-
+	show(item, options) {
+		this.#panoIcon && this.#panoIcon.hideFov();
+		this.#panoIcon = options.panoIcon;
 		this.#item = item;
+
+		[...this.#near.values()].forEach(near => near.remove());
 		this.#near.clear();
 
-		for (let otherItem of allItems) {
+		for (let otherItem of options.items) {
 			if (otherItem == item) { continue; }
 			let near = new PanoNear(otherItem, item);
 			if (near.distance > NEAR_LIMIT) { continue; }
@@ -44,7 +39,18 @@ export default class PanoScene extends HTMLElement {
 			this.#near.set(otherItem, near);
 		}
 
-		this.replaceChildren(littlePlanet, ...this.#near.values());
+		let lp = document.createElement("little-planet");
+		lp.src = item["SourceFile"];
+		lp.addEventListener("change", e => this.#onPanoChange(e));
+
+		if (options.heading !== null) { // crossfade
+			lp.style.opacity = 0;
+			this.append(lp, ...this.#near.values());
+			setHeading(lp, options.heading-Number(item["FlightYawDegree"]), this.#lp);
+		} else { // hard replace
+			this.replaceChildren(lp, ...this.#near.values());
+		}
+		this.#lp = lp;
 		this.#syncSize();
 	}
 
@@ -87,3 +93,22 @@ export default class PanoScene extends HTMLElement {
 	}
 }
 customElements.define("pano-scene", PanoScene);
+
+function setHeading(lp, heading, oldLp) {
+	lp.setAttribute("mode", "pano");
+	let camera = {
+		lat: 0,
+		lon: heading,
+		fov: oldLp.camera.fov
+	}
+	lp.addEventListener("load", _ => {
+		lp.camera = camera;
+		crossfade(oldLp, lp);
+	});
+}
+
+function crossfade(oldLp, newLp) {
+	let duration = 1000;
+	oldLp.animate({opacity: [1, 0]}, duration).finished.then(_ => oldLp.remove());
+	newLp.animate({opacity: [0, 1]}, {duration, fill:"both"}).finished.then(a => a.commitStyles());
+}

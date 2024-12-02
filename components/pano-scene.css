@@ -9,18 +9,17 @@ pano-scene {
 	position: relative;
 
 	little-planet {
-		display: block;
-		width: 100%;
-		height: 100%;
+		position: absolute;
+		inset: 0;
+	}
 
-		&:state(loading)::before {
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			content: "⌛";
-			font-size: 300%;
-			animation: rotate 3s linear infinite;
-		}
+	&:has(little-planet:state(loading))::after {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		content: "⌛";
+		font-size: 300%;
+		animation: rotate 3s linear infinite;
 	}
 }
 
