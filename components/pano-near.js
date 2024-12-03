@@ -23,8 +23,7 @@ export default class PanoNear extends HTMLElement {
 		azimuth = mod(azimuth*180/Math.PI, 360);
 		vazimuth1 = vazimuth1*180/Math.PI;
 		vazimuth2 = vazimuth2*180/Math.PI;
-		let title = targetItem["ImageDescription"] + " / " + vazimuth1.toFixed(2) + " / " + vazimuth2.toFixed(2);
-		this.#data = { distance, azimuth, vazimuth:vazimuth1, title };
+		this.#data = { distance, azimuth, vazimuth:vazimuth1 };
 	}
 
 	get target() { return this.#targetItem; }
@@ -57,8 +56,15 @@ export default class PanoNear extends HTMLElement {
 	}
 
 	connectedCallback() {
-		this.replaceChildren(this.#icon);
-		this.title = this.#data.title;
+		let a = document.createElement("a");
+		let url = new URL(location.href);
+		url.hash = this.#targetItem["SourceFile"];
+		a.href = url.href;
+
+		a.append(this.#icon);
+		this.replaceChildren(a);
+
+		this.title = this.#targetItem["ImageDescription"];
 		this.hidden = true;
 	}
 }

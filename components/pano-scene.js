@@ -1,8 +1,8 @@
 import PanoNear from "./pano-near.js";
+import { NEAR_LIMIT } from "./config.js";
 
 
 const DPR = devicePixelRatio;
-const NEAR_LIMIT = 5000;
 
 export default class PanoScene extends HTMLElement {
 	#lp;

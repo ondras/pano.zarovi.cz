@@ -6,6 +6,8 @@ pano-near {
 	--color: dodgerblue;
 	transition: opacity 300ms;
 
+	a { display: block; }
+
 	.icon {
 		display: block;
 		path {
