@@ -64,7 +64,8 @@ export default class PanoNear extends HTMLElement {
 		a.append(this.#icon);
 		this.replaceChildren(a);
 
-		this.title = this.#targetItem["ImageDescription"];
+		let dist = (this.#data.distance / 1000).toFixed(2);
+		this.title = `${this.#targetItem["ImageDescription"]}\n${dist} km`;
 		this.hidden = true;
 	}
 }
