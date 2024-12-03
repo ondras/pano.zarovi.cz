@@ -44,8 +44,8 @@ function createFov() {
 	let defs = document.createElementNS(SVGNS, "defs");
 	defs.innerHTML = `
 		<radialGradient id="fov" gradientUnits="userSpaceOnUse">
-			<stop offset="0%" stop-color="rgba(30 144 255 / 1)" />
-			<stop offset="100%" stop-color="rgba(30 144 255 / 0)" />
+			<stop offset="0%" stop-color="rgba(255 165 0 / 1)" />
+			<stop offset="100%" stop-color="rgba(255 165 0 / 0)" />
 		</radialGradient>
 	`;
 	let path = document.createElementNS(SVGNS, "path");
@@ -53,7 +53,7 @@ function createFov() {
 	return svg;
 }
 
-function createIcon() {
+export function createIcon() {
 	let svg = document.createElementNS(SVGNS, "svg");
 	svg.setAttribute("class", "icon");
 	svg.setAttribute("width", SIZE);

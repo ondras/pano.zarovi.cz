@@ -1,0 +1,29 @@
+@import url("pano-near.css");
+
+
+pano-scene {
+	display: block;
+	flex: 2 1 0;
+	min-width: 0;
+	min-height: 0;
+	position: relative;
+
+	little-planet {
+		position: absolute;
+		inset: 0;
+	}
+
+	&:has(little-planet:state(loading))::after {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		content: "⌛";
+		font-size: 300%;
+		animation: rotate 3s linear infinite;
+	}
+}
+
+@keyframes rotate {
+	0% { transform: translate(-50%, -50%) rotate(0deg); }
+	100% { transform: translate(-50%, -50%) rotate(360deg); }
+}

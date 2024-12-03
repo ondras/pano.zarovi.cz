@@ -1,0 +1,20 @@
+pano-near {
+	&:not([hidden]) { display: block; }
+	position: absolute;
+	translate: -50% -50%;
+	cursor: pointer;
+	--color: dodgerblue;
+	transition: opacity 300ms;
+
+	a { display: block; }
+
+	.icon {
+		display: block;
+		path {
+			stroke: #000;
+			fill: var(--color);
+		}
+	}
+
+	&:not(.highlight):not(.active) { opacity: 0.7; }
+}

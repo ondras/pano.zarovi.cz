@@ -1,0 +1,19 @@
+@import url("https://unpkg.com/leaflet@1/dist/leaflet.css");
+@import url("https://unpkg.com/leaflet.markercluster@1/dist/MarkerCluster.css");
+@import url("https://unpkg.com/leaflet.markercluster@1/dist/MarkerCluster.Default.css");
+@import url("pano-icon.css");
+
+
+pano-map {
+	display: block;
+	flex: 1 1 0;
+
+	.leaflet-popup-content a {
+		font-size: 116.667%;
+		font-weight: bold;
+		color: dodgerblue;
+	}
+
+	.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(0, 126, 255, 0.4); }
+	.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background-color: rgb(57, 140, 204, 0.6); }
+}
