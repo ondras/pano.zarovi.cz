@@ -33,7 +33,8 @@ export default class PanoApp extends HTMLElement {
 	show(item, activator) {
 		let mapOptions = {
 			center: (activator == "scene" || activator == "url"),
-			popup: (activator == "scene" || activator == "url")
+			popup: (activator == "scene" || activator == "url"),
+			zoom: (activator == "url" ? 17 : null)
 		}
 		this.#map.activate(item, mapOptions);
 

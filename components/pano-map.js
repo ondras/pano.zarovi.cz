@@ -71,7 +71,8 @@ export default class PanoMap extends HTMLElement {
 	getIcon(item) { return this.#panoIcons.get(item); }
 
 	activate(item, options) {
-		if (options.center) { this.#map.setView([item["GPSLatitude"], item["GPSLongitude"]], 17); }
+		let zoom = options.zoom || this.#map.getZoom();
+		if (options.center) { this.#map.setView([item["GPSLatitude"], item["GPSLongitude"]] , zoom); }
 
 		for (let [i, panoIcon] of this.#panoIcons.entries()) {
 			panoIcon.classList.toggle("active", i == item);
