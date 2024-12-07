@@ -20,9 +20,9 @@ export default class PanoNear extends HTMLElement {
 		let azimuth = geomUtils.azimuth(currentItem, targetItem);
 		let vazimuth1 = geomUtils.vertical_azimuth_1(currentItem, targetItem);
 		let vazimuth2 = geomUtils.vertical_azimuth_2(currentItem, targetItem);
-		azimuth = mod(azimuth*180/Math.PI, 360);
-		vazimuth1 = vazimuth1*180/Math.PI;
-		vazimuth2 = vazimuth2*180/Math.PI;
+		azimuth = azimuth/D2R;
+		vazimuth1 = vazimuth1/D2R;
+		vazimuth2 = vazimuth2/D2R;
 		this.#data = { distance, azimuth, vazimuth:vazimuth1 };
 	}
 
@@ -37,22 +37,31 @@ export default class PanoNear extends HTMLElement {
 			return;
 		}
 
-		let heading = camera.lon + Number(this.#currentItem["FlightYawDegree"]);
 		let ar = littlePlanet.width / littlePlanet.height;
-		const hfov = (ar >= 1 ? camera.fov : camera.fov*ar);
-		const vfov = (ar >= 1 ? camera.fov/ar : camera.fov);
+		let fov = {
+			h: (ar >= 1 ? camera.fov : camera.fov*ar) * D2R / 2,
+			v: (ar >= 1 ? camera.fov/ar : camera.fov) * D2R / 2
+		}
 
-		let fracH = projectToViewport(heading, hfov/2, this.#data.azimuth);
-		let fracV = projectToViewport(camera.lat, vfov/2, this.#data.vazimuth);
+		let point_r = {
+			lon: D2R*this.#data.azimuth,
+			lat: D2R*this.#data.vazimuth
+		}
+		let rotation_r = {
+			lat: -D2R*camera.lat,
+			lon: -D2R*(Number(this.#currentItem["FlightYawDegree"]) + camera.lon)
+		}
+		let rotated = geomUtils.rotate_xy(point_r, rotation_r);
 
-		if (fracH === null || fracV === null) {
+		if (Math.abs(rotated.lon) > fov.h || Math.abs(rotated.lat) > fov.v) {
 			this.hidden = true;
 			return;
 		}
 
+		let projected = geomUtils.project_gnomonic(rotated, fov);
 		this.hidden = false;
-		this.style.left = `${fracH*100}%`;
-		this.style.top = `${(1-fracV)*100}%`;
+		this.style.left = `${projected[0]*100}%`;
+		this.style.top = `${(1-projected[1])*100}%`;
 	}
 
 	connectedCallback() {
@@ -70,16 +79,3 @@ export default class PanoNear extends HTMLElement {
 	}
 }
 customElements.define("pano-near", PanoNear);
-
-function projectToViewport(center, fovHalf, angle) {
-	let diff = mod(angle-center, 360);
-	if (diff > 180) { diff -= 360; }
-	if (Math.abs(diff) > fovHalf) { return null; }
-
-	let frac = Math.tan(D2R*diff)/Math.tan(D2R*fovHalf); // -1..1
-	return (frac+1)/2;
-}
-
-function mod(num, m) {
-	return (num%m+m)%m;
-}
