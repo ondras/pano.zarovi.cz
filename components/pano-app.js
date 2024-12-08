@@ -41,7 +41,7 @@ export default class PanoApp extends HTMLElement {
 		let sceneOptions = {
 			panoIcon: this.#map.getIcon(item),
 			items: this.#items,
-			heading: (activator == "scene" ? this.#scene.heading : null)
+			retainCamera: (activator == "scene")
 		}
 		this.#scene.show(item, sceneOptions);
 	}
