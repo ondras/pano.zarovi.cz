@@ -55,13 +55,14 @@ export default class PanoScene extends HTMLElement {
 		lp.addEventListener("change", e => this.#onPanoChange(e));
 
 		if (camera) { // crossfade
+			this.append(lp, ...this.#near.values());
 			let oldLp = this.#lp;
 			lp.style.opacity = 0;
-			this.append(lp, ...this.#near.values());
-			await lpLoaded(lp);
-			lp.mode = "pano";
-			lp.camera = camera;
-			crossfade(oldLp, lp);
+			lp.addEventListener("load", _ => {
+				lp.mode = "pano";
+				lp.camera = camera;
+				crossfade(oldLp, lp);
+			});
 		} else { // hard replace
 			this.replaceChildren(lp, ...this.#near.values());
 		}
@@ -91,6 +92,7 @@ export default class PanoScene extends HTMLElement {
 		if (!(YAW_KEY in this.#item)) { return; }
 
 		const { mode, camera } = e.target;
+		console.log(e, camera)
 
 		switch (mode) {
 			case "pano":
@@ -113,11 +115,4 @@ function crossfade(oldLp, newLp) {
 	let duration = 1000;
 	oldLp.animate({opacity: [1, 0]}, duration).finished.then(_ => oldLp.remove());
 	newLp.animate({opacity: [0, 1]}, {duration, fill:"both"}).finished.then(a => a.commitStyles());
-}
-
-function lpLoaded(lp) {
-	return new Promise((resolve, reject) => {
-		lp.addEventListener("load", resolve);
-		lp.addEventListener("error", reject);
-	});
 }
