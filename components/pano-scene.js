@@ -3,6 +3,7 @@ import { NEAR_LIMIT } from "./config.js";
 
 
 const DPR = devicePixelRatio;
+const YAW_KEY = "FlightYawDegree";
 
 export default class PanoScene extends HTMLElement {
 	#lp;
@@ -16,10 +17,20 @@ export default class PanoScene extends HTMLElement {
 	}
 
 	get heading() {
-		return this.#lp.camera.lon + Number(this.#item["FlightYawDegree"]);
+		return this.#lp.camera.lon + Number(this.#item[YAW_KEY]);
 	}
 
-	show(item, options) {
+	async show(item, options) {
+		let camera = null;
+		if (options.retainCamera && this.#lp) {
+			let oldCamera = this.#lp.camera;
+			camera = {
+				lat: oldCamera.lat,
+				lon: this.heading - Number(item[YAW_KEY]),
+				fov: oldCamera.fov
+			}
+		}
+
 		this.#panoIcon && this.#panoIcon.hideFov();
 		this.#panoIcon = options.panoIcon;
 		this.#item = item;
@@ -43,13 +54,18 @@ export default class PanoScene extends HTMLElement {
 		lp.src = item["SourceFile"];
 		lp.addEventListener("change", e => this.#onPanoChange(e));
 
-		if (options.heading !== null) { // crossfade
+		if (camera) { // crossfade
+			let oldLp = this.#lp;
 			lp.style.opacity = 0;
 			this.append(lp, ...this.#near.values());
-			setHeading(lp, options.heading-Number(item["FlightYawDegree"]), this.#lp);
+			await lpLoaded(lp);
+			lp.mode = "pano";
+			lp.camera = camera;
+			crossfade(oldLp, lp);
 		} else { // hard replace
 			this.replaceChildren(lp, ...this.#near.values());
 		}
+
 		this.#lp = lp;
 		this.#syncSize();
 	}
@@ -72,14 +88,13 @@ export default class PanoScene extends HTMLElement {
 	}
 
 	#onPanoChange(e) {
-		if (!("FlightYawDegree" in this.#item)) { return; }
+		if (!(YAW_KEY in this.#item)) { return; }
 
 		const { mode, camera } = e.target;
 
 		switch (mode) {
 			case "pano":
-				let angle = camera.lon + Number(this.#item["FlightYawDegree"]);
-				this.#panoIcon.drawFov(angle, camera.fov);
+				this.#panoIcon.drawFov(this.heading, camera.fov);
 			break;
 
 			case "planet":
@@ -94,21 +109,15 @@ export default class PanoScene extends HTMLElement {
 }
 customElements.define("pano-scene", PanoScene);
 
-function setHeading(lp, heading, oldLp) {
-	lp.setAttribute("mode", "pano");
-	let camera = {
-		lat: 0,
-		lon: heading,
-		fov: oldLp.camera.fov
-	}
-	lp.addEventListener("load", _ => {
-		lp.camera = camera;
-		crossfade(oldLp, lp);
-	});
-}
-
 function crossfade(oldLp, newLp) {
 	let duration = 1000;
 	oldLp.animate({opacity: [1, 0]}, duration).finished.then(_ => oldLp.remove());
 	newLp.animate({opacity: [0, 1]}, {duration, fill:"both"}).finished.then(a => a.commitStyles());
+}
+
+function lpLoaded(lp) {
+	return new Promise((resolve, reject) => {
+		lp.addEventListener("load", resolve);
+		lp.addEventListener("error", reject);
+	});
 }
