@@ -6,7 +6,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 141.6,
   "GPSLatitude": 50.0126451388889,
   "GPSLongitude": 14.4128553889333,
@@ -25,7 +24,7 @@
   "FlightYawDegree": -42.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Na Cikorce, Modřany",
-  "CreateDate": 1652904371
+  "CreateDate": 1652897171
 },
 {
   "SourceFile": "img/20220519_114432.webp",
@@ -35,7 +34,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 141.3,
   "GPSLatitude": 50.0711078055444,
   "GPSLongitude": 14.4006506111111,
@@ -54,7 +52,7 @@
   "FlightYawDegree": -96.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Seznam.cz, Radlická",
-  "CreateDate": 1652960672
+  "CreateDate": 1652953472
 },
 {
   "SourceFile": "img/20220522_143254.webp",
@@ -64,7 +62,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 364.7,
   "GPSLatitude": 49.96505675,
   "GPSLongitude": 14.4730842777583,
@@ -83,7 +80,7 @@
   "FlightYawDegree": "+152.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kamínek, Zlatníky-Hodkovice",
-  "CreateDate": 1653229974
+  "CreateDate": 1653222774
 },
 {
   "SourceFile": "img/20220522_151103.webp",
@@ -93,7 +90,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 385.4,
   "GPSLatitude": 49.9652273333333,
   "GPSLongitude": 14.4730391944556,
@@ -112,7 +108,7 @@
   "FlightYawDegree": "+154.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kamínek, Zlatníky-Hodkovice",
-  "CreateDate": 1653232263
+  "CreateDate": 1653225063
 },
 {
   "SourceFile": "img/20220604_090759.webp",
@@ -122,7 +118,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 362.6,
   "GPSLatitude": 49.4041255277694,
   "GPSLongitude": 14.1195353055639,
@@ -141,7 +136,7 @@
   "FlightYawDegree": -36.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Velká podkova nízko",
-  "CreateDate": 1654333679
+  "CreateDate": 1654326479
 },
 {
   "SourceFile": "img/20220604_134047.webp",
@@ -151,7 +146,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 372.3,
   "GPSLatitude": 49.4003064722222,
   "GPSLongitude": 14.1241267221972,
@@ -170,7 +164,7 @@
   "FlightYawDegree": -172.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Landa",
-  "CreateDate": 1654350047
+  "CreateDate": 1654342847
 },
 {
   "SourceFile": "img/20220604_141209.webp",
@@ -180,7 +174,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 401.8,
   "GPSLatitude": 49.4037288333333,
   "GPSLongitude": 14.1199346111111,
@@ -199,7 +192,7 @@
   "FlightYawDegree": "+126.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Sluneční zátoka",
-  "CreateDate": 1654351929
+  "CreateDate": 1654344729
 },
 {
   "SourceFile": "img/20220604_141437.webp",
@@ -209,7 +202,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 396.8,
   "GPSLatitude": 49.4039690833222,
   "GPSLongitude": 14.1196198611111,
@@ -228,7 +220,7 @@
   "FlightYawDegree": -142.20,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Velká podkova vysoko",
-  "CreateDate": 1654352077
+  "CreateDate": 1654344877
 },
 {
   "SourceFile": "img/20220605_115105.webp",
@@ -238,7 +230,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 389.3,
   "GPSLatitude": 49.4035730555556,
   "GPSLongitude": 14.1024094722311,
@@ -257,7 +248,7 @@
   "FlightYawDegree": "+148.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jezírka Jesenického potoka",
-  "CreateDate": 1654429865
+  "CreateDate": 1654422665
 },
 {
   "SourceFile": "img/20220605_124755.webp",
@@ -267,7 +258,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 425.9,
   "GPSLatitude": 49.3792460277778,
   "GPSLongitude": 14.1283161389778,
@@ -286,7 +276,7 @@
   "FlightYawDegree": -76.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Sanatorium Vráž",
-  "CreateDate": 1654433275
+  "CreateDate": 1654426075
 },
 {
   "SourceFile": "img/20220610_192757.webp",
@@ -296,7 +286,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 139.7,
   "GPSLatitude": 50.0722389167139,
   "GPSLongitude": 14.4113998055472,
@@ -315,7 +304,7 @@
   "FlightYawDegree": -100.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Cargo gallery",
-  "CreateDate": 1654889277
+  "CreateDate": 1654882077
 },
 {
   "SourceFile": "img/20220610_193109.webp",
@@ -325,7 +314,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 169,
   "GPSLatitude": 50.0695431111111,
   "GPSLongitude": 14.4125057500111,
@@ -344,7 +332,7 @@
   "FlightYawDegree": "+80.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Vltava",
-  "CreateDate": 1654889469
+  "CreateDate": 1654882269
 },
 {
   "SourceFile": "img/20220610_215155.webp",
@@ -354,7 +342,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 157.1,
   "GPSLatitude": 50.0722804444444,
   "GPSLongitude": 14.4119172222222,
@@ -373,7 +360,7 @@
   "FlightYawDegree": -94.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Cargo gallery at night",
-  "CreateDate": 1654897915
+  "CreateDate": 1654890715
 },
 {
   "SourceFile": "img/20220612_134202.webp",
@@ -383,7 +370,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 257.1,
   "GPSLatitude": 50.1636053054667,
   "GPSLongitude": 14.2560865277778,
@@ -402,7 +388,7 @@
   "FlightYawDegree": "+160.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hrad Okoř",
-  "CreateDate": 1655041322
+  "CreateDate": 1655034122
 },
 {
   "SourceFile": "img/20220614_173054.webp",
@@ -412,7 +398,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 208.5,
   "GPSLatitude": 49.9987597777778,
   "GPSLongitude": 14.4045415277778,
@@ -431,7 +416,7 @@
   "FlightYawDegree": -1.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Cukrovar Modřany",
-  "CreateDate": 1655227854
+  "CreateDate": 1655220654
 },
 {
   "SourceFile": "img/20220621_175622.webp",
@@ -441,7 +426,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 362.5,
   "GPSLatitude": 49.9665291666667,
   "GPSLongitude": 14.4731274166472,
@@ -460,7 +444,7 @@
   "FlightYawDegree": -123.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Strom u Kamínku",
-  "CreateDate": 1655834182
+  "CreateDate": 1655826982
 },
 {
   "SourceFile": "img/20220625_163452.webp",
@@ -470,7 +454,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 472,
   "GPSLatitude": 49.4035903055722,
   "GPSLongitude": 14.1025211944681,
@@ -489,7 +472,7 @@
   "FlightYawDegree": "+134.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jezírka Jesenického potoka po dešti",
-  "CreateDate": 1656174892
+  "CreateDate": 1656167692
 },
 {
   "SourceFile": "img/20220625_171533.webp",
@@ -499,7 +482,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 420.7,
   "GPSLatitude": 49.4053203333333,
   "GPSLongitude": 14.1146824167306,
@@ -518,7 +500,7 @@
   "FlightYawDegree": -48.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Wechtr",
-  "CreateDate": 1656177333
+  "CreateDate": 1656170133
 },
 {
   "SourceFile": "img/20220626_105400.webp",
@@ -528,7 +510,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 451,
   "GPSLatitude": 49.4083771388806,
   "GPSLongitude": 14.1138934722222,
@@ -547,7 +528,7 @@
   "FlightYawDegree": "+57.10",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Pole směrem na Velkou křižovatku",
-  "CreateDate": 1656240840
+  "CreateDate": 1656233640
 },
 {
   "SourceFile": "img/20220702_132626.webp",
@@ -557,7 +538,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 210.7,
   "GPSLatitude": 48.1928903611333,
   "GPSLongitude": 14.2500100833333,
@@ -576,7 +556,7 @@
   "FlightYawDegree": -15.10,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Konopné bludiště Ansfelden",
-  "CreateDate": 1656768386
+  "CreateDate": 1656761186
 },
 {
   "SourceFile": "img/20220702_154057.webp",
@@ -586,7 +566,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 415.8,
   "GPSLatitude": 47.9361363333333,
   "GPSLongitude": 13.5634453610361,
@@ -605,7 +584,7 @@
   "FlightYawDegree": -71.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Attersee",
-  "CreateDate": 1656776457
+  "CreateDate": 1656769257
 },
 {
   "SourceFile": "img/20220703_123134.webp",
@@ -615,7 +594,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1886.6,
   "GPSLatitude": 47.1266790277778,
   "GPSLongitude": 13.6429715833028,
@@ -634,7 +612,7 @@
   "FlightYawDegree": -147.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Großeck",
-  "CreateDate": 1656851494
+  "CreateDate": 1656844294
 },
 {
   "SourceFile": "img/20220703_163406.webp",
@@ -644,7 +622,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1085.9,
   "GPSLatitude": 47.1348610277778,
   "GPSLongitude": 13.6866811666667,
@@ -663,7 +640,7 @@
   "FlightYawDegree": -52.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Koupaliště v Mauterndorfu",
-  "CreateDate": 1656866046
+  "CreateDate": 1656858846
 },
 {
   "SourceFile": "img/20220703_184305.webp",
@@ -673,7 +650,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1041.7,
   "GPSLatitude": 47.1496152500861,
   "GPSLongitude": 13.7279149722333,
@@ -692,7 +668,7 @@
   "FlightYawDegree": -163.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Bruckdorf",
-  "CreateDate": 1656873785
+  "CreateDate": 1656866585
 },
 {
   "SourceFile": "img/20220703_184830.webp",
@@ -702,7 +678,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1129.9,
   "GPSLatitude": 47.1497066666667,
   "GPSLongitude": 13.7278358333333,
@@ -721,7 +696,7 @@
   "FlightYawDegree": "+21.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Bruckdorf",
-  "CreateDate": 1656874110
+  "CreateDate": 1656866910
 },
 {
   "SourceFile": "img/20220704_104311.webp",
@@ -731,7 +706,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1041.6,
   "GPSLatitude": 47.1527766666667,
   "GPSLongitude": 13.7174787222222,
@@ -750,7 +724,7 @@
   "FlightYawDegree": -62.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lanový park Bruckdorf",
-  "CreateDate": 1656931391
+  "CreateDate": 1656924191
 },
 {
   "SourceFile": "img/20220704_182042.webp",
@@ -760,7 +734,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1068.8,
   "GPSLatitude": 47.1463603610833,
   "GPSLongitude": 13.7374567777778,
@@ -779,7 +752,7 @@
   "FlightYawDegree": "+44.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "St. Laurentius, Althofen",
-  "CreateDate": 1656958842
+  "CreateDate": 1656951642
 },
 {
   "SourceFile": "img/20220705_113253.webp",
@@ -789,7 +762,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1936.2,
   "GPSLatitude": 47.2629125277667,
   "GPSLongitude": 13.5490925833611,
@@ -808,7 +780,7 @@
   "FlightYawDegree": -23.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Krummschnabelsee",
-  "CreateDate": 1657020773
+  "CreateDate": 1657013573
 },
 {
   "SourceFile": "img/20220705_113831.webp",
@@ -818,7 +790,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 2002,
   "GPSLatitude": 47.2625582501194,
   "GPSLongitude": 13.5437340277778,
@@ -837,7 +808,7 @@
   "FlightYawDegree": -98.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Grünwaldsee",
-  "CreateDate": 1657021111
+  "CreateDate": 1657013911
 },
 {
   "SourceFile": "img/20220705_140246.webp",
@@ -847,7 +818,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1328.6,
   "GPSLatitude": 47.2512842000067,
   "GPSLongitude": 13.5076631000139,
@@ -866,7 +836,7 @@
   "FlightYawDegree": "+75.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Johanneswasserfall",
-  "CreateDate": 1657029766
+  "CreateDate": 1657022566
 },
 {
   "SourceFile": "img/20220707_114040.webp",
@@ -876,7 +846,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1711.1,
   "GPSLatitude": 47.0583293889194,
   "GPSLongitude": 13.6187945833333,
@@ -895,7 +864,7 @@
   "FlightYawDegree": -157.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Katschberg",
-  "CreateDate": 1657194040
+  "CreateDate": 1657186840
 },
 {
   "SourceFile": "img/20220708_163156.webp",
@@ -905,7 +874,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 49.4,
   "GPSLatitude": 45.4428498333556,
   "GPSLongitude": 12.4627257777778,
@@ -924,7 +892,7 @@
   "FlightYawDegree": "+145.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Ca' Savio Beach",
-  "CreateDate": 1657297916
+  "CreateDate": 1657290716
 },
 {
   "SourceFile": "img/20220709_200551.webp",
@@ -934,7 +902,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 61.3,
   "GPSLatitude": 45.4451147777778,
   "GPSLongitude": 12.4619406944444,
@@ -953,7 +920,7 @@
   "FlightYawDegree": -172.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Ca' Savio Pool",
-  "CreateDate": 1657397151
+  "CreateDate": 1657389951
 },
 {
   "SourceFile": "img/20220710_195053.webp",
@@ -963,7 +930,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 90.6,
   "GPSLatitude": 45.4443095000833,
   "GPSLongitude": 12.4625997777778,
@@ -982,7 +948,7 @@
   "FlightYawDegree": -68.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Ca' Savio",
-  "CreateDate": 1657482653
+  "CreateDate": 1657475453
 },
 {
   "SourceFile": "img/20220711_114738.webp",
@@ -992,7 +958,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 102.5,
   "GPSLatitude": 45.4381419444444,
   "GPSLongitude": 12.3329595555556,
@@ -1011,7 +976,7 @@
   "FlightYawDegree": "+49.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Venezia",
-  "CreateDate": 1657540058
+  "CreateDate": 1657532858
 },
 {
   "SourceFile": "img/20220711_142451.webp",
@@ -1021,7 +986,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 105.5,
   "GPSLatitude": 45.4568155555556,
   "GPSLongitude": 12.3584651666278,
@@ -1040,7 +1004,7 @@
   "FlightYawDegree": -140.10,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Murano",
-  "CreateDate": 1657549491
+  "CreateDate": 1657542291
 },
 {
   "SourceFile": "img/20220711_161747.webp",
@@ -1050,7 +1014,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 40.6,
   "GPSLatitude": 45.4855095833333,
   "GPSLongitude": 12.4153773611111,
@@ -1069,7 +1032,7 @@
   "FlightYawDegree": -48.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Burano",
-  "CreateDate": 1657556267
+  "CreateDate": 1657549067
 },
 {
   "SourceFile": "img/20220713_151516.webp",
@@ -1079,7 +1042,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 48.3,
   "GPSLatitude": 45.4940371666667,
   "GPSLongitude": 12.6007479722222,
@@ -1098,7 +1060,7 @@
   "FlightYawDegree": -99.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Caribe Bay 120m",
-  "CreateDate": 1657725316
+  "CreateDate": 1657718116
 },
 {
   "SourceFile": "img/20220713_151635.webp",
@@ -1108,7 +1070,6 @@
   "GPSAltitudeRef": 1,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": -12.8,
   "GPSLatitude": 45.4940449444444,
   "GPSLongitude": 12.6007497222222,
@@ -1127,7 +1088,7 @@
   "FlightYawDegree": -98.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Caribe Bay 60m",
-  "CreateDate": 1657725395
+  "CreateDate": 1657718195
 },
 {
   "SourceFile": "img/20220714_144237.webp",
@@ -1137,7 +1098,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 680.8,
   "GPSLatitude": 46.8119155833417,
   "GPSLongitude": 13.5272242222222,
@@ -1156,7 +1116,7 @@
   "FlightYawDegree": "+14.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Millstätter See",
-  "CreateDate": 1657809757
+  "CreateDate": 1657802557
 },
 {
   "SourceFile": "img/20220714_183146.webp",
@@ -1166,7 +1126,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1661,
   "GPSLatitude": 47.4065828611167,
   "GPSLongitude": 14.1980461667972,
@@ -1185,7 +1144,7 @@
   "FlightYawDegree": -25.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Planneralm",
-  "CreateDate": 1657823506
+  "CreateDate": 1657816306
 },
 {
   "SourceFile": "img/20220715_150245.webp",
@@ -1195,7 +1154,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1795.5,
   "GPSLatitude": 47.3989066666667,
   "GPSLongitude": 14.2060335833444,
@@ -1214,7 +1172,7 @@
   "FlightYawDegree": -60.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Panoramasee",
-  "CreateDate": 1657897365
+  "CreateDate": 1657890165
 },
 {
   "SourceFile": "img/20220806_151555.webp",
@@ -1224,7 +1182,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 373.7,
   "GPSLatitude": 50.0020941388811,
   "GPSLongitude": 14.3548452777778,
@@ -1243,7 +1200,7 @@
   "FlightYawDegree": -169.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lochkov",
-  "CreateDate": 1659798955
+  "CreateDate": 1659791755
 },
 {
   "SourceFile": "img/20220828_163905.webp",
@@ -1253,7 +1210,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 248.6,
   "GPSLatitude": 50.0126825833167,
   "GPSLongitude": 14.4128483333333,
@@ -1272,7 +1228,7 @@
   "FlightYawDegree": "+58.60",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Na Cikorce, Modřany",
-  "CreateDate": 1661704745
+  "CreateDate": 1661697545
 },
 {
   "SourceFile": "img/20220904_160754.webp",
@@ -1282,7 +1238,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 409.6,
   "GPSLatitude": 49.9649956387556,
   "GPSLongitude": 14.4731242778083,
@@ -1301,7 +1256,7 @@
   "FlightYawDegree": -43.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kamínek, vysoko",
-  "CreateDate": 1662307674
+  "CreateDate": 1662300474
 },
 {
   "SourceFile": "img/20220920_172200.webp",
@@ -1311,7 +1266,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 605.1,
   "GPSLatitude": 50.0714634722222,
   "GPSLongitude": 17.0844561666667,
@@ -1330,7 +1284,7 @@
   "FlightYawDegree": -148.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Chata Eliška, Loučná nad Desnou",
-  "CreateDate": 1663694520
+  "CreateDate": 1663687320
 },
 {
   "SourceFile": "img/20221016_134943.webp",
@@ -1340,7 +1294,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 555,
   "GPSLatitude": 49.87716,
   "GPSLongitude": 14.2542513888889,
@@ -1359,7 +1312,7 @@
   "FlightYawDegree": -43.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Klášter Skalka, Mníšek pod Brdy",
-  "CreateDate": 1665928183
+  "CreateDate": 1665920983
 },
 {
   "SourceFile": "img/20221016_152549.webp",
@@ -1369,7 +1322,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 454.3,
   "GPSLatitude": 49.8663735279056,
   "GPSLongitude": 14.2599889165972,
@@ -1388,7 +1340,7 @@
   "FlightYawDegree": "+77.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kostel sv. Václava, Mníšek pod Brdy",
-  "CreateDate": 1665933949
+  "CreateDate": 1665926749
 },
 {
   "SourceFile": "img/20221022_140144.webp",
@@ -1398,7 +1350,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 261.4,
   "GPSLatitude": 50.0703438333333,
   "GPSLongitude": 14.3950026388889,
@@ -1417,7 +1368,7 @@
   "FlightYawDegree": "+171.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Bertramka",
-  "CreateDate": 1666447304
+  "CreateDate": 1666440104
 },
 {
   "SourceFile": "img/20221022_145127.webp",
@@ -1427,7 +1378,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 312.5,
   "GPSLatitude": 50.0025814166611,
   "GPSLongitude": 14.4500038888889,
@@ -1446,7 +1396,7 @@
   "FlightYawDegree": -4.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Modřanská rokle",
-  "CreateDate": 1666450287
+  "CreateDate": 1666443087
 },
 {
   "SourceFile": "img/20221023_155305.webp",
@@ -1456,7 +1406,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 207.9,
   "GPSLatitude": 50.03794447225,
   "GPSLongitude": 14.4134250554889,
@@ -1475,7 +1424,7 @@
   "FlightYawDegree": "+173.60",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kostel sv. Prokopa, Braník",
-  "CreateDate": 1666540385
+  "CreateDate": 1666533185
 },
 {
   "SourceFile": "img/20221023_155503.webp",
@@ -1485,7 +1434,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 274.4,
   "GPSLatitude": 50.03791980555,
   "GPSLongitude": 14.4135566389806,
@@ -1504,7 +1452,7 @@
   "FlightYawDegree": "+112.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Braník",
-  "CreateDate": 1666540503
+  "CreateDate": 1666533303
 },
 {
   "SourceFile": "img/20221027_145038.webp",
@@ -1514,7 +1462,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 538.9,
   "GPSLatitude": 50.7124689722333,
   "GPSLongitude": 15.1073530277778,
@@ -1533,7 +1480,7 @@
   "FlightYawDegree": "+30.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hřbitov Milíře",
-  "CreateDate": 1666882238
+  "CreateDate": 1666875038
 },
 {
   "SourceFile": "img/20221027_150809.webp",
@@ -1543,7 +1490,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 562.9,
   "GPSLatitude": 50.7132363333333,
   "GPSLongitude": 15.1044193611028,
@@ -1562,7 +1508,7 @@
   "FlightYawDegree": "+92.50",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Rozhledna Císařský kámen",
-  "CreateDate": 1666883289
+  "CreateDate": 1666876089
 },
 {
   "SourceFile": "img/20221027_173320.webp",
@@ -1572,7 +1518,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 734.7,
   "GPSLatitude": 50.7732851388889,
   "GPSLongitude": 15.1963105277944,
@@ -1591,7 +1536,7 @@
   "FlightYawDegree": "+124.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Západ nad Slovankou",
-  "CreateDate": 1666892000
+  "CreateDate": 1666884800
 },
 {
   "SourceFile": "img/20221028_145046.webp",
@@ -1601,7 +1546,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 843.2,
   "GPSLatitude": 50.7924100277722,
   "GPSLongitude": 15.1579183055611,
@@ -1620,7 +1564,7 @@
   "FlightYawDegree": "+28.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Rozhledna Královka",
-  "CreateDate": 1666968646
+  "CreateDate": 1666961446
 },
 {
   "SourceFile": "img/20221029_121017.webp",
@@ -1630,7 +1574,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 742.7,
   "GPSLatitude": 50.7966715277778,
   "GPSLongitude": 15.1422616389222,
@@ -1649,7 +1592,7 @@
   "FlightYawDegree": -126.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Bedřichov",
-  "CreateDate": 1667045417
+  "CreateDate": 1667038217
 },
 {
   "SourceFile": "img/20221029_151618.webp",
@@ -1659,7 +1602,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 797.1,
   "GPSLatitude": 50.7958896666667,
   "GPSLongitude": 15.1941301945194,
@@ -1678,7 +1620,7 @@
   "FlightYawDegree": -53.20,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Josefův Důl",
-  "CreateDate": 1667056578
+  "CreateDate": 1667049378
 },
 {
   "SourceFile": "img/20221030_094958.webp",
@@ -1688,7 +1630,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 783.9,
   "GPSLatitude": 50.7733011944528,
   "GPSLongitude": 15.1962707223222,
@@ -1707,7 +1648,7 @@
   "FlightYawDegree": "+121.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Slovanka",
-  "CreateDate": 1667123398
+  "CreateDate": 1667119798
 },
 {
   "SourceFile": "img/20221030_113514.webp",
@@ -1717,7 +1658,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 555.5,
   "GPSLatitude": 50.7271017499833,
   "GPSLongitude": 15.1713291666667,
@@ -1736,7 +1676,7 @@
   "FlightYawDegree": -178.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jablonec nad Nisou, Kostel Nejsvětějšího Srdce Ježíšova",
-  "CreateDate": 1667129714
+  "CreateDate": 1667126114
 },
 {
   "SourceFile": "img/20221030_113745.webp",
@@ -1746,7 +1686,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 495.4,
   "GPSLatitude": 50.7262415277778,
   "GPSLongitude": 15.1712916111111,
@@ -1765,7 +1704,7 @@
   "FlightYawDegree": -0.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jablonec nad Nisou, Horní náměstí",
-  "CreateDate": 1667129865
+  "CreateDate": 1667126265
 },
 {
   "SourceFile": "img/20221119_093824.webp",
@@ -1775,7 +1714,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 258.6,
   "GPSLatitude": 50.012631,
   "GPSLongitude": 14.4127997777778,
@@ -1794,7 +1732,7 @@
   "FlightYawDegree": "+47.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Sníh Na Cikorce, Modřany,",
-  "CreateDate": 1668850704
+  "CreateDate": 1668847104
 },
 {
   "SourceFile": "img/20230101_000651.webp",
@@ -1804,7 +1742,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 290.4,
   "GPSLatitude": 50.0126980278056,
   "GPSLongitude": 14.4129048888889,
@@ -1823,7 +1760,7 @@
   "FlightYawDegree": -118.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Silvestr Na Cikorce, Modřany",
-  "CreateDate": 1672531611
+  "CreateDate": 1672528011
 },
 {
   "SourceFile": "img/20230119_095228.webp",
@@ -1833,7 +1770,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1004.4,
   "GPSLatitude": 50.6706808888889,
   "GPSLongitude": 15.5524330277725,
@@ -1852,7 +1788,7 @@
   "FlightYawDegree": -106.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Penzion Petr, Benecko",
-  "CreateDate": 1674121948
+  "CreateDate": 1674118348
 },
 {
   "SourceFile": "img/20230119_105052.webp",
@@ -1862,7 +1798,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 914.9,
   "GPSLatitude": 50.6673433611111,
   "GPSLongitude": 15.5467823334528,
@@ -1881,7 +1816,7 @@
   "FlightYawDegree": "+164.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Family Aréna, Benecko",
-  "CreateDate": 1674125452
+  "CreateDate": 1674121852
 },
 {
   "SourceFile": "img/20230119_105438.webp",
@@ -1891,7 +1826,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1013.3,
   "GPSLatitude": 50.6666622499833,
   "GPSLongitude": 15.5489279722417,
@@ -1910,7 +1844,7 @@
   "FlightYawDegree": "+116.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Benecko",
-  "CreateDate": 1674125678
+  "CreateDate": 1674122078
 },
 {
   "SourceFile": "img/20230430_144313.webp",
@@ -1920,7 +1854,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 390.8,
   "GPSLatitude": 49.959025,
   "GPSLongitude": 14.1970400833111,
@@ -1939,7 +1872,7 @@
   "FlightYawDegree": "+62.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lom Velká Amerika, výš",
-  "CreateDate": 1682865793
+  "CreateDate": 1682858593
 },
 {
   "SourceFile": "img/20230430_144453.webp",
@@ -1949,7 +1882,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 314.9,
   "GPSLatitude": 49.9590272778167,
   "GPSLongitude": 14.1970379166667,
@@ -1968,7 +1900,7 @@
   "FlightYawDegree": "+62.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lom Velká Amerika, níž",
-  "CreateDate": 1682865893
+  "CreateDate": 1682858693
 },
 {
   "SourceFile": "img/20230430_145014.webp",
@@ -1978,7 +1910,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 444.9,
   "GPSLatitude": 49.956384916675,
   "GPSLongitude": 14.1903969166556,
@@ -1997,7 +1928,7 @@
   "FlightYawDegree": "+151.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lom Mexiko",
-  "CreateDate": 1682866214
+  "CreateDate": 1682859014
 },
 {
   "SourceFile": "img/20230506_180516.webp",
@@ -2007,7 +1938,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 423.3,
   "GPSLatitude": 49.0299321945,
   "GPSLongitude": 12.2071631944444,
@@ -2026,7 +1956,7 @@
   "FlightYawDegree": -4.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Donaustauf, nad kostelem",
-  "CreateDate": 1683396316
+  "CreateDate": 1683389116
 },
 {
   "SourceFile": "img/20230506_180804.webp",
@@ -2036,7 +1966,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 454.2,
   "GPSLatitude": 49.0303203055444,
   "GPSLongitude": 12.2069394166667,
@@ -2055,7 +1984,7 @@
   "FlightYawDegree": "+9.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Donaustauf, nad zříceninou",
-  "CreateDate": 1683396484
+  "CreateDate": 1683389284
 },
 {
   "SourceFile": "img/20230518_143656.webp",
@@ -2065,7 +1994,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 311.4,
   "GPSLatitude": 50.0420118055556,
   "GPSLongitude": 14.2923345277639,
@@ -2084,7 +2012,7 @@
   "FlightYawDegree": "+0.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Krteň, kostelík a hřbitov, nízko",
-  "CreateDate": 1684420616
+  "CreateDate": 1684413416
 },
 {
   "SourceFile": "img/20230518_143858.webp",
@@ -2094,7 +2022,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 403.3,
   "GPSLatitude": 50.0420153055611,
   "GPSLongitude": 14.2923306111111,
@@ -2113,7 +2040,7 @@
   "FlightYawDegree": -45.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Krteň, kostelík a hřbitov, vysoko",
-  "CreateDate": 1684420738
+  "CreateDate": 1684413538
 },
 {
   "SourceFile": "img/20230528_105319.webp",
@@ -2123,7 +2050,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 221,
   "GPSLatitude": 50.1061238055667,
   "GPSLongitude": 14.4167110277778,
@@ -2142,7 +2068,7 @@
   "FlightYawDegree": "+154.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Stromovka",
-  "CreateDate": 1685271199
+  "CreateDate": 1685263999
 },
 {
   "SourceFile": "img/20230530_111515.webp",
@@ -2152,7 +2078,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 706.3,
   "GPSLatitude": 48.63659019445,
   "GPSLongitude": 14.1773535832583,
@@ -2171,7 +2096,7 @@
   "FlightYawDegree": "+125.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Vodní nádrž Lipno",
-  "CreateDate": 1685445315
+  "CreateDate": 1685438115
 },
 {
   "SourceFile": "img/20230530_193000.webp",
@@ -2181,7 +2106,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 813.3,
   "GPSLatitude": 48.7652364999611,
   "GPSLongitude": 14.1043934722222,
@@ -2200,7 +2124,7 @@
   "FlightYawDegree": "+174.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Žlábek, Lipno",
-  "CreateDate": 1685475000
+  "CreateDate": 1685467800
 },
 {
   "SourceFile": "img/20230531_111739.webp",
@@ -2210,7 +2134,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 747,
   "GPSLatitude": 48.7909763333333,
   "GPSLongitude": 14.0968369721583,
@@ -2229,7 +2152,7 @@
   "FlightYawDegree": "+113.50",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Národní přírodní památka Olšina",
-  "CreateDate": 1685531859
+  "CreateDate": 1685524659
 },
 {
   "SourceFile": "img/20230604_103526.webp",
@@ -2239,7 +2162,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 327.7,
   "GPSLatitude": 49.9648772777972,
   "GPSLongitude": 14.3879059444444,
@@ -2258,7 +2180,7 @@
   "FlightYawDegree": -105.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Skatepark Zbraslav",
-  "CreateDate": 1685874926
+  "CreateDate": 1685867726
 },
 {
   "SourceFile": "img/20230617_151855.webp",
@@ -2268,7 +2190,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 404.8,
   "GPSLatitude": 50.0304781110361,
   "GPSLongitude": 14.3132792498722,
@@ -2287,7 +2208,7 @@
   "FlightYawDegree": -96.20,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Skatepark a studio Bubec, Řeporyje",
-  "CreateDate": 1687015135
+  "CreateDate": 1687007935
 },
 {
   "SourceFile": "img/20230625_111152.webp",
@@ -2297,7 +2218,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 432.4,
   "GPSLatitude": 49.406892166625,
   "GPSLongitude": 14.1814991666667,
@@ -2316,7 +2236,7 @@
   "FlightYawDegree": "+92.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Soutok Lomnice a Otavy",
-  "CreateDate": 1687691512
+  "CreateDate": 1687684312
 },
 {
   "SourceFile": "img/20230705_132244.webp",
@@ -2326,7 +2246,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 474.7,
   "GPSLatitude": 49.8709324722417,
   "GPSLongitude": 16.3115828611889,
@@ -2345,7 +2264,7 @@
   "FlightYawDegree": "+60.10",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Smetanovo náměstí, Litomyšl",
-  "CreateDate": 1688563364
+  "CreateDate": 1688556164
 },
 {
   "SourceFile": "img/20230705_165047.webp",
@@ -2355,7 +2274,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 495.4,
   "GPSLatitude": 49.5917466945028,
   "GPSLongitude": 18.1176100277778,
@@ -2374,7 +2292,7 @@
   "FlightYawDegree": -54.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Štramberk, nízko",
-  "CreateDate": 1688575847
+  "CreateDate": 1688568647
 },
 {
   "SourceFile": "img/20230705_165448.webp",
@@ -2384,7 +2302,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 560.9,
   "GPSLatitude": 49.5916632223028,
   "GPSLongitude": 18.1174275277842,
@@ -2403,7 +2320,7 @@
   "FlightYawDegree": "+131.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Štramberk, vysoko",
-  "CreateDate": 1688576088
+  "CreateDate": 1688568888
 },
 {
   "SourceFile": "img/20230706_131024.webp",
@@ -2413,7 +2330,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1209,
   "GPSLatitude": 49.4905073055639,
   "GPSLongitude": 18.2238924166417,
@@ -2432,7 +2348,7 @@
   "FlightYawDegree": -35.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Radhošť",
-  "CreateDate": 1688649024
+  "CreateDate": 1688641824
 },
 {
   "SourceFile": "img/20230706_173724.webp",
@@ -2442,7 +2358,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 510.1,
   "GPSLatitude": 49.5377924166861,
   "GPSLongitude": 18.1916070833333,
@@ -2461,7 +2376,7 @@
   "FlightYawDegree": "+44.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Zvonička Strážkyně Beskyd, Frenštát pod Radhoštěm",
-  "CreateDate": 1688665044
+  "CreateDate": 1688657844
 },
 {
   "SourceFile": "img/20230707_135507.webp",
@@ -2471,7 +2386,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 435.6,
   "GPSLatitude": 49.6806375278389,
   "GPSLongitude": 18.2774652499333,
@@ -2490,7 +2404,7 @@
   "FlightYawDegree": -151.20,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Rozhledna Okrouhlá, Staříč",
-  "CreateDate": 1688738107
+  "CreateDate": 1688730907
 },
 {
   "SourceFile": "img/20230707_202134.webp",
@@ -2500,7 +2414,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 608.8,
   "GPSLatitude": 49.5121830832778,
   "GPSLongitude": 18.2413295555556,
@@ -2519,7 +2432,7 @@
   "FlightYawDegree": -12.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Penzion U Barana, Trojanovice",
-  "CreateDate": 1688761294
+  "CreateDate": 1688754094
 },
 {
   "SourceFile": "img/20230709_112130.webp",
@@ -2529,7 +2442,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 773,
   "GPSLatitude": 49.37676125,
   "GPSLongitude": 17.7003346666667,
@@ -2548,7 +2460,7 @@
   "FlightYawDegree": -83.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Bazilika Nanebevzetí Panny Marie, Hostýn",
-  "CreateDate": 1688901690
+  "CreateDate": 1688894490
 },
 {
   "SourceFile": "img/20230723_181925.webp",
@@ -2558,7 +2470,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 148.2,
   "GPSLatitude": 45.4227323055472,
   "GPSLongitude": 12.4367577777778,
@@ -2577,7 +2488,7 @@
   "FlightYawDegree": -104.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Maják Punta Sabbioni",
-  "CreateDate": 1690136365
+  "CreateDate": 1690129165
 },
 {
   "SourceFile": "img/20230724_142036.webp",
@@ -2587,7 +2498,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 175.3,
   "GPSLatitude": 45.4554744722333,
   "GPSLongitude": 12.4378941111111,
@@ -2606,7 +2516,7 @@
   "FlightYawDegree": "+122.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Forte Batteria Treporti",
-  "CreateDate": 1690208436
+  "CreateDate": 1690201236
 },
 {
   "SourceFile": "img/20230725_160145.webp",
@@ -2616,7 +2526,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 251.6,
   "GPSLatitude": 45.4982526388889,
   "GPSLongitude": 12.418877,
@@ -2635,7 +2544,7 @@
   "FlightYawDegree": "+155.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Torcello",
-  "CreateDate": 1690300905
+  "CreateDate": 1690293705
 },
 {
   "SourceFile": "img/20230725_174322.webp",
@@ -2645,7 +2554,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 257.4,
   "GPSLatitude": 45.4845469166667,
   "GPSLongitude": 12.4187095,
@@ -2664,7 +2572,7 @@
   "FlightYawDegree": "+167.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Burano",
-  "CreateDate": 1690307002
+  "CreateDate": 1690299802
 },
 {
   "SourceFile": "img/20230728_161259.webp",
@@ -2674,7 +2582,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 627.5,
   "GPSLatitude": 47.8512158888889,
   "GPSLongitude": 13.3540271667028,
@@ -2693,7 +2600,7 @@
   "FlightYawDegree": -13.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Mondsee",
-  "CreateDate": 1690560779
+  "CreateDate": 1690553579
 },
 {
   "SourceFile": "img/20230817_111640.webp",
@@ -2703,7 +2610,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 444.7,
   "GPSLatitude": 49.4172067222222,
   "GPSLongitude": 14.1893594166722,
@@ -2722,7 +2628,7 @@
   "FlightYawDegree": "+66.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Svatá Anna, Oslov",
-  "CreateDate": 1692271000
+  "CreateDate": 1692263800
 },
 {
   "SourceFile": "img/20230917_163856.webp",
@@ -2732,7 +2638,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 504.2,
   "GPSLatitude": 49.9622772222222,
   "GPSLongitude": 14.4079673611111,
@@ -2751,7 +2656,7 @@
   "FlightYawDegree": "+116.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Rozhledna Závist, Dolní Břežany",
-  "CreateDate": 1694968736
+  "CreateDate": 1694961536
 },
 {
   "SourceFile": "img/20231027_154715.webp",
@@ -2761,7 +2666,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 847.9,
   "GPSLatitude": 50.6234191388889,
   "GPSLongitude": 14.1359838055778,
@@ -2780,7 +2684,7 @@
   "FlightYawDegree": -72.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Rozhledna Lucemburkův kopec, Malečov",
-  "CreateDate": 1698421635
+  "CreateDate": 1698414435
 },
 {
   "SourceFile": "img/20231028_122641.webp",
@@ -2790,7 +2694,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 750.3,
   "GPSLatitude": 50.63120125,
   "GPSLongitude": 14.1145503055333,
@@ -2809,7 +2712,7 @@
   "FlightYawDegree": "+45.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Malečov",
-  "CreateDate": 1698496001
+  "CreateDate": 1698488801
 },
 {
   "SourceFile": "img/20231105_134957.webp",
@@ -2819,7 +2722,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 601.8,
   "GPSLatitude": 50.1483336111111,
   "GPSLongitude": 14.364746694425,
@@ -2838,7 +2740,7 @@
   "FlightYawDegree": -52.20,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Únětice, Horní rybník",
-  "CreateDate": 1699192197
+  "CreateDate": 1699188597
 },
 {
   "SourceFile": "img/20231105_135420.webp",
@@ -2848,7 +2750,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 604.2,
   "GPSLatitude": 50.1507428055556,
   "GPSLongitude": 14.3586753333333,
@@ -2867,7 +2768,7 @@
   "FlightYawDegree": -133.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Únětice, hřbitov",
-  "CreateDate": 1699192460
+  "CreateDate": 1699188860
 },
 {
   "SourceFile": "img/20231105_150153.webp",
@@ -2877,7 +2778,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 512.9,
   "GPSLatitude": 50.1587734165917,
   "GPSLongitude": 14.3992832221444,
@@ -2896,7 +2796,7 @@
   "FlightYawDegree": "+50.20",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Roztoky u Prahy",
-  "CreateDate": 1699196513
+  "CreateDate": 1699192913
 },
 {
   "SourceFile": "img/20231229_112207.webp",
@@ -2906,7 +2806,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 858.4,
   "GPSLatitude": 50.7903054722639,
   "GPSLongitude": 15.2182723888889,
@@ -2925,7 +2824,7 @@
   "FlightYawDegree": "+29.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Čertovy kameny, Josefův Důl",
-  "CreateDate": 1703848927
+  "CreateDate": 1703845327
 },
 {
   "SourceFile": "img/20240216_150949.webp",
@@ -2935,7 +2834,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 806.9,
   "GPSLatitude": 47.5243046666667,
   "GPSLongitude": 14.0782066666667,
@@ -2954,7 +2852,7 @@
   "FlightYawDegree": -70.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Unterburg, Trautenfels",
-  "CreateDate": 1708096189
+  "CreateDate": 1708092589
 },
 {
   "SourceFile": "img/20240216_162236.webp",
@@ -2964,7 +2862,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1748,
   "GPSLatitude": 47.5969131944444,
   "GPSLongitude": 13.9839395,
@@ -2983,7 +2880,7 @@
   "FlightYawDegree": "+160.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hotel Alpen Arnika, Tauplitzalm",
-  "CreateDate": 1708100556
+  "CreateDate": 1708096956
 },
 {
   "SourceFile": "img/20240218_103511.webp",
@@ -2993,7 +2890,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1970.4,
   "GPSLatitude": 47.5977284165694,
   "GPSLongitude": 13.9539766944528,
@@ -3012,7 +2908,7 @@
   "FlightYawDegree": "+37.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Lawinenstein",
-  "CreateDate": 1708252511
+  "CreateDate": 1708248911
 },
 {
   "SourceFile": "img/20240218_123424.webp",
@@ -3022,7 +2918,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1770.8,
   "GPSLatitude": 47.6006506944444,
   "GPSLongitude": 13.9893553888889,
@@ -3041,7 +2936,7 @@
   "FlightYawDegree": -39.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Schneiderkogel",
-  "CreateDate": 1708259664
+  "CreateDate": 1708256064
 },
 {
   "SourceFile": "img/20240401_163830.webp",
@@ -3051,7 +2946,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 528.3,
   "GPSLatitude": 50.0022557222222,
   "GPSLongitude": 14.3276463611361,
@@ -3070,7 +2964,7 @@
   "FlightYawDegree": "+45.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Mramorový lom Cikánka",
-  "CreateDate": 1711989510
+  "CreateDate": 1711982310
 },
 {
   "SourceFile": "img/20240406_102616.webp",
@@ -3080,7 +2974,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1110.4,
   "GPSLatitude": 49.0144204167778,
   "GPSLongitude": 13.5909703055472,
@@ -3099,7 +2992,7 @@
   "FlightYawDegree": "+173.50",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Vilémov, Kvilda",
-  "CreateDate": 1712399176
+  "CreateDate": 1712391976
 },
 {
   "SourceFile": "img/20240406_144742.webp",
@@ -3109,7 +3002,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1156.2,
   "GPSLatitude": 49.0403777222528,
   "GPSLongitude": 13.5744944166833,
@@ -3128,7 +3020,7 @@
   "FlightYawDegree": "+31.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jezerní slať",
-  "CreateDate": 1712414862
+  "CreateDate": 1712407662
 },
 {
   "SourceFile": "img/20240406_154524.webp",
@@ -3138,7 +3030,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1002.9,
   "GPSLatitude": 48.9987214721944,
   "GPSLongitude": 13.6594493611111,
@@ -3157,7 +3048,7 @@
   "FlightYawDegree": "+62.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Chalupská slať, Svinná Lada",
-  "CreateDate": 1712418324
+  "CreateDate": 1712411124
 },
 {
   "SourceFile": "img/20240407_113047.webp",
@@ -3167,7 +3058,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 940.6,
   "GPSLatitude": 49.1660213888889,
   "GPSLongitude": 13.5655405555556,
@@ -3186,7 +3076,7 @@
   "FlightYawDegree": -70.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hrad Kašperk",
-  "CreateDate": 1712489447
+  "CreateDate": 1712482247
 },
 {
   "SourceFile": "img/20240608_141956.webp",
@@ -3196,7 +3086,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 717.4,
   "GPSLatitude": 48.7981632222222,
   "GPSLongitude": 14.6157195833333,
@@ -3215,7 +3104,7 @@
   "FlightYawDegree": "+48.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Slavče, Trhové Sviny",
-  "CreateDate": 1717856396
+  "CreateDate": 1717849196
 },
 {
   "SourceFile": "img/20240608_162129.webp",
@@ -3225,7 +3114,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 701.6,
   "GPSLatitude": 48.8113831666417,
   "GPSLongitude": 14.3092735277944,
@@ -3244,7 +3132,7 @@
   "FlightYawDegree": -103.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Zámecká zahrada, Český Krumlov",
-  "CreateDate": 1717863689
+  "CreateDate": 1717856489
 },
 {
   "SourceFile": "img/20240609_114457.webp",
@@ -3254,7 +3142,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1245.8,
   "GPSLatitude": 48.8653805278528,
   "GPSLongitude": 14.2831045833333,
@@ -3273,7 +3160,7 @@
   "FlightYawDegree": "+177.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kleť, Křemže",
-  "CreateDate": 1717933497
+  "CreateDate": 1717926297
 },
 {
   "SourceFile": "img/20240616_105430.webp",
@@ -3283,7 +3170,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 585.9,
   "GPSLatitude": 49.4125374721972,
   "GPSLongitude": 14.6593202222222,
@@ -3302,7 +3188,7 @@
   "FlightYawDegree": "+0.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Tábor",
-  "CreateDate": 1718535270
+  "CreateDate": 1718528070
 },
 {
   "SourceFile": "img/20240616_140849.webp",
@@ -3312,7 +3198,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 604.2,
   "GPSLatitude": 49.4144913055667,
   "GPSLongitude": 14.6453136944778,
@@ -3331,7 +3216,7 @@
   "FlightYawDegree": -97.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Klášter Klokoty",
-  "CreateDate": 1718546929
+  "CreateDate": 1718539729
 },
 {
   "SourceFile": "img/20240620_075405.webp",
@@ -3341,7 +3226,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 194.5,
   "GPSLatitude": 50.7735496666667,
   "GPSLongitude": 14.2116671111111,
@@ -3360,7 +3244,7 @@
   "FlightYawDegree": -3.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "U Starého Mostu, Děčín",
-  "CreateDate": 1718870045
+  "CreateDate": 1718862845
 },
 {
   "SourceFile": "img/20240620_114122.webp",
@@ -3370,7 +3254,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 131.1,
   "GPSLatitude": 50.7793409722222,
   "GPSLongitude": 14.20513125,
@@ -3389,7 +3272,7 @@
   "FlightYawDegree": -49.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Pastýřská stěna, Děčín",
-  "CreateDate": 1718883682
+  "CreateDate": 1718876482
 },
 {
   "SourceFile": "img/20240706_114200.webp",
@@ -3399,7 +3282,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 755.3,
   "GPSLatitude": 50.4450662222222,
   "GPSLongitude": 13.2573701667111,
@@ -3418,7 +3300,7 @@
   "FlightYawDegree": "+148.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hrad Hasištejn",
-  "CreateDate": 1720266120
+  "CreateDate": 1720258920
 },
 {
   "SourceFile": "img/20240706_154335.webp",
@@ -3428,7 +3310,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 487.7,
   "GPSLatitude": 50.352030861125,
   "GPSLongitude": 13.4068016944667,
@@ -3447,7 +3328,7 @@
   "FlightYawDegree": -87.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Vodní nádrž Nechranice",
-  "CreateDate": 1720280615
+  "CreateDate": 1720273415
 },
 {
   "SourceFile": "img/20240718_184102.webp",
@@ -3457,7 +3338,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 185.5,
   "GPSLatitude": 39.7576379166667,
   "GPSLongitude": 19.6436584722222,
@@ -3476,7 +3356,7 @@
   "FlightYawDegree": -67.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Agios Stefanos",
-  "CreateDate": 1721328062
+  "CreateDate": 1721320862
 },
 {
   "SourceFile": "img/20240719_104511.webp",
@@ -3486,7 +3366,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 169.7,
   "GPSLatitude": 39.7224574166889,
   "GPSLongitude": 19.6688689722153,
@@ -3505,7 +3384,7 @@
   "FlightYawDegree": -140.60,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Agios Georgios, House Dimitri",
-  "CreateDate": 1721385911
+  "CreateDate": 1721378711
 },
 {
   "SourceFile": "img/20240719_104657.webp",
@@ -3515,7 +3394,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 169.7,
   "GPSLatitude": 39.7198497222222,
   "GPSLongitude": 19.6675295,
@@ -3534,7 +3412,7 @@
   "FlightYawDegree": "+10.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Agios Georgios",
-  "CreateDate": 1721386017
+  "CreateDate": 1721378817
 },
 {
   "SourceFile": "img/20240719_180054.webp",
@@ -3544,7 +3422,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 553.8,
   "GPSLatitude": 39.7007369722222,
   "GPSLongitude": 19.6935336388583,
@@ -3563,7 +3440,7 @@
   "FlightYawDegree": -83.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Výhled Helidoni",
-  "CreateDate": 1721412054
+  "CreateDate": 1721404854
 },
 {
   "SourceFile": "img/20240720_180102.webp",
@@ -3573,7 +3450,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 207.2,
   "GPSLatitude": 39.7430623889583,
   "GPSLongitude": 19.6476755277694,
@@ -3592,7 +3468,7 @@
   "FlightYawDegree": -158.40,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Arilas",
-  "CreateDate": 1721498462
+  "CreateDate": 1721491262
 },
 {
   "SourceFile": "img/20240720_204422.webp",
@@ -3602,7 +3478,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 306.9,
   "GPSLatitude": 39.7204331944444,
   "GPSLongitude": 19.6586172777222,
@@ -3621,7 +3496,7 @@
   "FlightYawDegree": "+65.50",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Afionas",
-  "CreateDate": 1721508262
+  "CreateDate": 1721501062
 },
 {
   "SourceFile": "img/20240721_110458.webp",
@@ -3631,7 +3506,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 141.5,
   "GPSLatitude": 39.7200353333333,
   "GPSLongitude": 19.6680411666667,
@@ -3650,7 +3524,7 @@
   "FlightYawDegree": -35.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Agios Georgios, šlapadla",
-  "CreateDate": 1721559898
+  "CreateDate": 1721552698
 },
 {
   "SourceFile": "img/20240721_181250.webp",
@@ -3660,7 +3534,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 197.4,
   "GPSLatitude": 39.7975953890139,
   "GPSLongitude": 19.6948484444444,
@@ -3679,7 +3552,7 @@
   "FlightYawDegree": -15.70,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Mermaid's rock, Sidari",
-  "CreateDate": 1721585570
+  "CreateDate": 1721578370
 },
 {
   "SourceFile": "img/20240723_232401.webp",
@@ -3689,7 +3562,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 186.7,
   "GPSLatitude": 39.7193078055556,
   "GPSLongitude": 19.6690849722139,
@@ -3708,7 +3580,7 @@
   "FlightYawDegree": "+98.90",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Agios Georgios, noc",
-  "CreateDate": 1721777041
+  "CreateDate": 1721769841
 },
 {
   "SourceFile": "img/20240724_150646.webp",
@@ -3718,7 +3590,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1021.4,
   "GPSLatitude": 39.7480432223333,
   "GPSLongitude": 19.8721086666667,
@@ -3737,7 +3608,7 @@
   "FlightYawDegree": "+11.80",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Pantokrator",
-  "CreateDate": 1721833606
+  "CreateDate": 1721826406
 },
 {
   "SourceFile": "img/20240724_172436.webp",
@@ -3747,7 +3618,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 174.8,
   "GPSLatitude": 39.8107876388889,
   "GPSLongitude": 19.8337524722222,
@@ -3766,7 +3636,7 @@
   "FlightYawDegree": "+0.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Acharavi",
-  "CreateDate": 1721841876
+  "CreateDate": 1721834676
 },
 {
   "SourceFile": "img/20240907_115752.webp",
@@ -3776,7 +3646,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 359.5,
   "GPSLatitude": 50.2433900833333,
   "GPSLongitude": 14.6678003333333,
@@ -3795,7 +3664,7 @@
   "FlightYawDegree": -170.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Jezero Lhota",
-  "CreateDate": 1725710272
+  "CreateDate": 1725703072
 },
 {
   "SourceFile": "img/20240922_114611.webp",
@@ -3805,7 +3674,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 521.4,
   "GPSLatitude": 49.5130836389028,
   "GPSLongitude": 14.1704052222222,
@@ -3824,7 +3692,7 @@
   "FlightYawDegree": -35.80,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Orlík",
-  "CreateDate": 1727005571
+  "CreateDate": 1726998371
 },
 {
   "SourceFile": "img/20240928_132702.webp",
@@ -3834,7 +3702,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 671.9,
   "GPSLatitude": 49.61711625,
   "GPSLongitude": 15.3927006666667,
@@ -3853,7 +3720,7 @@
   "FlightYawDegree": -2.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hřeben IV, Lipnice nad Sázavou, vysoko",
-  "CreateDate": 1727530022
+  "CreateDate": 1727522822
 },
 {
   "SourceFile": "img/20240928_133038.webp",
@@ -3863,7 +3730,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 487.1,
   "GPSLatitude": 49.6175666388889,
   "GPSLongitude": 15.392351055575,
@@ -3882,7 +3748,7 @@
   "FlightYawDegree": "+140.30",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Hřeben IV, Lipnice nad Sázavou, nízko",
-  "CreateDate": 1727530238
+  "CreateDate": 1727523038
 },
 {
   "SourceFile": "img/20241027_133133.webp",
@@ -3892,7 +3758,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 575.4,
   "GPSLatitude": 50.1056118055556,
   "GPSLongitude": 13.2462705833472,
@@ -3911,7 +3776,7 @@
   "FlightYawDegree": -41.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Zámek Chyně",
-  "CreateDate": 1730035893
+  "CreateDate": 1730032293
 },
 {
   "SourceFile": "img/20241028_111723.webp",
@@ -3921,7 +3786,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 901,
   "GPSLatitude": 50.0258881389167,
   "GPSLongitude": 12.6711531111111,
@@ -3940,7 +3804,7 @@
   "FlightYawDegree": "+44.50",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kladský rybník, Mariánské Lázně",
-  "CreateDate": 1730114243
+  "CreateDate": 1730110643
 },
 {
   "SourceFile": "img/20241028_112945.webp",
@@ -3950,7 +3814,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 900.6,
   "GPSLatitude": 50.0254567500389,
   "GPSLongitude": 12.6686654444444,
@@ -3969,7 +3832,7 @@
   "FlightYawDegree": "+56.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Kladská, Mariánské Lázně",
-  "CreateDate": 1730114985
+  "CreateDate": 1730111385
 },
 {
   "SourceFile": "img/20241029_115520.webp",
@@ -3979,7 +3842,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 459.2,
   "GPSLatitude": 50.1484096945556,
   "GPSLongitude": 12.4019154999822,
@@ -3998,7 +3860,7 @@
   "FlightYawDegree": "+0.40",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Přírodní rezervace Soos",
-  "CreateDate": 1730202920
+  "CreateDate": 1730199320
 },
 {
   "SourceFile": "img/20241102_115605.webp",
@@ -4008,7 +3870,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 601.9,
   "GPSLatitude": 49.5306811389028,
   "GPSLongitude": 16.3263448332917,
@@ -4027,7 +3888,7 @@
   "FlightYawDegree": -47.30,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Zubštejn, Pivonice",
-  "CreateDate": 1730548565
+  "CreateDate": 1730544965
 },
 {
   "SourceFile": "img/20241102_132521.webp",
@@ -4037,7 +3898,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 547.9,
   "GPSLatitude": 49.544624194425,
   "GPSLongitude": 16.3358254166667,
@@ -4056,7 +3916,7 @@
   "FlightYawDegree": "+162.00",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Pyšolec, Vír",
-  "CreateDate": 1730553921
+  "CreateDate": 1730550321
 },
 {
   "SourceFile": "img/20241103_100158.webp",
@@ -4066,7 +3926,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 461.5,
   "GPSLatitude": 49.4797904722917,
   "GPSLongitude": 16.3587518333083,
@@ -4085,7 +3944,7 @@
   "FlightYawDegree": -88.90,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Chatová osada, Dolní Čepí",
-  "CreateDate": 1730628118
+  "CreateDate": 1730624518
 },
 {
   "SourceFile": "img/20241103_100447.webp",
@@ -4095,7 +3954,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 410.4,
   "GPSLatitude": 49.4779613610139,
   "GPSLongitude": 16.3490416389444,
@@ -4114,7 +3972,7 @@
   "FlightYawDegree": -102.00,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Dolní Čepí",
-  "CreateDate": 1730628287
+  "CreateDate": 1730624687
 },
 {
   "SourceFile": "img/20241128_164350.webp",
@@ -4124,7 +3982,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 473.3,
   "GPSLatitude": 49.2238426944333,
   "GPSLongitude": 18.7401282777778,
@@ -4143,7 +4000,7 @@
   "FlightYawDegree": -109.40,
   "FlightZSpeed": 0.1,
   "ImageDescription": "Žilina",
-  "CreateDate": 1732812230
+  "CreateDate": 1732808630
 },
 {
   "SourceFile": "img/20241229_114857.webp",
@@ -4153,7 +4010,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 670,
   "GPSLatitude": 50.7799685,
   "GPSLongitude": 15.2353807777778,
@@ -4172,7 +4028,7 @@
   "FlightYawDegree": "+85.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Huť Marie, Josefův Důl",
-  "CreateDate": 1735472937
+  "CreateDate": 1735469337
 },
 {
   "SourceFile": "img/20241229_115100.webp",
@@ -4182,7 +4038,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 670,
   "GPSLatitude": 50.7823091666667,
   "GPSLongitude": 15.2288683611,
@@ -4201,7 +4056,7 @@
   "FlightYawDegree": -33.50,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Splav, Josefův Důl",
-  "CreateDate": 1735473060
+  "CreateDate": 1735469460
 },
 {
   "SourceFile": "img/20241230_135600.webp",
@@ -4211,7 +4066,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 945.9,
   "GPSLatitude": 50.7918798055167,
   "GPSLongitude": 15.1594834166528,
@@ -4230,7 +4084,7 @@
   "FlightYawDegree": "+126.70",
   "FlightZSpeed": 0.0,
   "ImageDescription": "Královka v zimě",
-  "CreateDate": 1735566960
+  "CreateDate": 1735563360
 },
 {
   "SourceFile": "img/20241231_123113.webp",
@@ -4240,7 +4094,6 @@
   "GPSAltitudeRef": 0,
   "GPSStatus": "V",
   "GPSMapDatum": "WGS-84",
-  "GpsStatus": "Invalid",
   "GPSAltitude": 1040,
   "GPSLatitude": 50.8308217777778,
   "GPSLongitude": 15.2429084166833,
@@ -4259,5 +4112,117 @@
   "FlightYawDegree": -20.10,
   "FlightZSpeed": 0.0,
   "ImageDescription": "Na Knejpě, Jizerské hory",
-  "CreateDate": 1735648273
+  "CreateDate": 1735644673
+},
+{
+  "SourceFile": "img/20250127_145158.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLongitudeRef": "E",
+  "GPSAltitudeRef": 0,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSAltitude": 874.3,
+  "GPSLatitude": 47.7015443055556,
+  "GPSLongitude": 14.1524919444444,
+  "GPSPosition": "47.7015443055556 14.1524919444444",
+  "GimbalDegree": "1636,98,0",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+163.60",
+  "FlightDegree": "1633,-31,121",
+  "FlightSpeed": "0,0,0",
+  "FlightPitchDegree": -3.10,
+  "FlightRollDegree": "+12.10",
+  "FlightXSpeed": 0.0,
+  "FlightYSpeed": 0.0,
+  "FlightYawDegree": "+163.30",
+  "FlightZSpeed": 0.0,
+  "ImageDescription": "Hinterstoder - údolí",
+  "CreateDate": 1737985918
+},
+{
+  "SourceFile": "img/20250130_102435.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLongitudeRef": "E",
+  "GPSAltitudeRef": 0,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSAltitude": 2179.3,
+  "GPSLatitude": 47.6547257222222,
+  "GPSLongitude": 14.1773885833389,
+  "GPSPosition": "47.6547257222222 14.1773885833389",
+  "GimbalDegree": "-45,98,0",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -4.50,
+  "FlightDegree": "-46,46,-8",
+  "FlightSpeed": "0,0,0",
+  "FlightPitchDegree": "+4.60",
+  "FlightRollDegree": -0.80,
+  "FlightXSpeed": 0.0,
+  "FlightYSpeed": 0.0,
+  "FlightYawDegree": -4.60,
+  "FlightZSpeed": 0.0,
+  "ImageDescription": "Schafkögel, Hinterstoder",
+  "CreateDate": 1738229075
+},
+{
+  "SourceFile": "img/20250130_125812.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLongitudeRef": "E",
+  "GPSAltitudeRef": 0,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSAltitude": 2024.9,
+  "GPSLatitude": 47.6673011111111,
+  "GPSLongitude": 14.1749069166333,
+  "GPSPosition": "47.6673011111111 14.1749069166333",
+  "GimbalDegree": "181,98,0",
+  "GimbalPitchDegree": "+9.80",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": "+18.10",
+  "FlightDegree": "183,5,1",
+  "FlightSpeed": "0,0,0",
+  "FlightPitchDegree": "+0.50",
+  "FlightRollDegree": "+0.10",
+  "FlightXSpeed": 0.0,
+  "FlightYSpeed": 0.0,
+  "FlightYawDegree": "+18.30",
+  "FlightZSpeed": 0.0,
+  "ImageDescription": "Hinterstoder - vrch",
+  "CreateDate": 1738238292
+},
+{
+  "SourceFile": "img/20250131_100504.webp",
+  "GPSVersionID": "2 3 0 0",
+  "GPSLatitudeRef": "N",
+  "GPSLongitudeRef": "E",
+  "GPSAltitudeRef": 0,
+  "GPSStatus": "V",
+  "GPSMapDatum": "WGS-84",
+  "GPSAltitude": 705.6,
+  "GPSLatitude": 47.6912544722722,
+  "GPSLongitude": 14.1298524444444,
+  "GPSPosition": "47.6912544722722 14.1298524444444",
+  "GimbalDegree": "-735,102,0",
+  "GimbalPitchDegree": "+10.20",
+  "GimbalReverse": 0,
+  "GimbalRollDegree": "+0.00",
+  "GimbalYawDegree": -73.50,
+  "FlightDegree": "-736,0,-6",
+  "FlightSpeed": "0,0,0",
+  "FlightPitchDegree": "+0.00",
+  "FlightRollDegree": -0.60,
+  "FlightXSpeed": 0.0,
+  "FlightYSpeed": 0.0,
+  "FlightYawDegree": -73.60,
+  "FlightZSpeed": 0.0,
+  "ImageDescription": "Schiederweiher, Hinterstoder",
+  "CreateDate": 1738314304
 }]
