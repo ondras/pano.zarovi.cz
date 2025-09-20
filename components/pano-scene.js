@@ -92,7 +92,6 @@ export default class PanoScene extends HTMLElement {
 		if (!(YAW_KEY in this.#item)) { return; }
 
 		const { mode, camera } = e.target;
-		console.log(e, camera)
 
 		switch (mode) {
 			case "pano":
