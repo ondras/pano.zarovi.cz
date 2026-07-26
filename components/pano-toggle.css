@@ -1,0 +1,48 @@
+pano-toggle {
+	position: absolute;
+	translate: -50% -50%;
+	z-index: 500;  /* .leaflet-pane: 400 */
+
+	@media (orientation: portrait) {
+		left: 50%;
+		top: 0;
+		rotate: 90deg;
+	}
+
+	@media (orientation: landscape) {
+		left: 0;
+		top: 50%;
+	}
+
+
+	button {
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: monospace;
+		padding: 6px;
+		background-color: #fff;
+		border: none;
+		box-shadow: 0 0 3px 2px rgb(0 0 0 / 0.2);
+		cursor: pointer;
+		transition: all 300ms;
+		color: rgb(0 0 0 / 0.7);
+
+		&:hover {
+			box-shadow: 0 0 3px 2px rgb(0 0 0 / 0.5);
+		}
+
+		&::before {
+			display: block;
+			--size: 24px;
+			font-size: var(--size);
+			width: var(--size);
+			aspect-ratio: 1;
+			line-height: 1;
+		}
+
+		pano-app[data-priority=map] &::before { content: "❮"; }
+		pano-app[data-priority=scene] &::before { content: "❯"; }
+	}
+}

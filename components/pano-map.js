@@ -47,6 +47,8 @@ export default class PanoMap extends HTMLElement {
 		const map = L.map(this);
 		addLayers(map);
 		this.#map = map;
+
+		map.on("moveend", _ => this.dispatchEvent(new Event("moveend")));
 	}
 
 	showItems(items) {
@@ -72,7 +74,7 @@ export default class PanoMap extends HTMLElement {
 
 	activate(item, options) {
 		let zoom = options.zoom || this.#map.getZoom();
-		if (options.center) { this.#map.setView([item["GPSLatitude"], item["GPSLongitude"]] , zoom, {animate:false}); }
+		if (options.center) { this.setViewport([item["GPSLatitude"], item["GPSLongitude"]] , zoom); }
 
 		for (let [i, panoIcon] of this.#panoIcons.entries()) {
 			panoIcon.classList.toggle("active", i == item);
@@ -87,6 +89,17 @@ export default class PanoMap extends HTMLElement {
 	highlight(item) {
 		for (let [i, panoIcon] of this.#panoIcons.entries()) {
 			panoIcon.classList.toggle("highlight", i == item);
+		}
+	}
+
+	setViewport(center, zoom) {
+		this.#map.setView(center, zoom, {animate:false});
+	}
+
+	getViewport() {
+		return {
+			center: this.#map.getCenter(),
+			zoom: this.#map.getZoom()
 		}
 	}
 

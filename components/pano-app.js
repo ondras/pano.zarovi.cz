@@ -28,6 +28,7 @@ export default class PanoApp extends HTMLElement {
 	connectedCallback() {
 		this.replaceChildren(this.#map, this.#scene);
 		this.#load();
+		this.dataset.priority = "map";
 	}
 
 	show(item, activator) {
@@ -44,6 +45,20 @@ export default class PanoApp extends HTMLElement {
 			retainCamera: (activator == "scene")
 		}
 		this.#scene.show(item, sceneOptions);
+
+		this.dataset.priority = "scene";
+	}
+
+	#onMoveEnd() {
+		if (this.#scene.hasItem) { return; }
+
+		let { center, zoom } = this.#map.getViewport();
+
+		let sp = new URLSearchParams();
+		sp.set("x", center.lng.toFixed(4));
+		sp.set("y", center.lat.toFixed(4));
+		sp.set("z", zoom);
+		history.replaceState(null, "", `#${sp.toString()}`);
 	}
 
 	#highlight(item) {
@@ -54,9 +69,11 @@ export default class PanoApp extends HTMLElement {
 	async #load() {
 		let response = await fetch("data.json");
 		this.#items = await response.json();
-		// FIXME validate key props
+
 		this.#map.showItems(this.#items);
 		this.#fromURL();
+
+		this.#map.addEventListener("moveend", e => this.#onMoveEnd());
 	}
 
 	#fromURL() {
@@ -64,9 +81,17 @@ export default class PanoApp extends HTMLElement {
 		if (!str) { return; }
 
 		let item = this.#items.filter(item => item["SourceFile"] == str)[0];
-		if (!item) { return; }
-
-		this.show(item, "url", );
+		if (item) {
+			this.show(item, "url");
+		} else {
+			let sp = new URLSearchParams(str);
+			if (sp.has("x") && sp.has("y") && sp.has("z")) {
+				let lon = Number(sp.get("x"));
+				let lat = Number(sp.get("y"));
+				let zoom = Number(sp.get("z"));
+				this.#map.setViewport([lat, lon], zoom);
+			}
+		}
 	}
 
 }

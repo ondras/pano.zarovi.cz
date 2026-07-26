@@ -1,12 +1,14 @@
 @import url("pano-near.css");
+@import url("pano-toggle.css");
 
 
 pano-scene {
 	display: block;
-	flex: 2 1 0;
+	flex-grow: 1;
 	min-width: 0;
 	min-height: 0;
 	position: relative;
+	transition: flex-grow 300ms;
 
 	little-planet {
 		position: absolute;
@@ -21,6 +23,8 @@ pano-scene {
 		font-size: 300%;
 		animation: rotate 3s linear infinite;
 	}
+
+	pano-app[data-priority=scene] & { flex-grow: 2; }
 }
 
 @keyframes rotate {

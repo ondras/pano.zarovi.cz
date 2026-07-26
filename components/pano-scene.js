@@ -1,5 +1,6 @@
 import PanoNear from "./pano-near.js";
 import { NEAR_LIMIT } from "./config.js";
+import PanoToggle from "./pano-toggle.js";
 
 
 const DPR = devicePixelRatio;
@@ -10,6 +11,7 @@ export default class PanoScene extends HTMLElement {
 	#item;
 	#panoIcon;
 	#near = new Map();
+	#toggle = new PanoToggle();
 
 	constructor() {
 		super();
@@ -18,6 +20,10 @@ export default class PanoScene extends HTMLElement {
 
 	get heading() {
 		return this.#lp.camera.lon + Number(this.#item[YAW_KEY]);
+	}
+
+	connectedCallback() {
+		this.replaceChildren(this.#toggle);
 	}
 
 	async show(item, options) {
@@ -54,6 +60,8 @@ export default class PanoScene extends HTMLElement {
 		lp.src = item["SourceFile"];
 		lp.addEventListener("change", e => this.#onPanoChange(e));
 
+		const toggle = this.#toggle;
+
 		if (camera) { // crossfade
 			this.append(lp, ...this.#near.values());
 			let oldLp = this.#lp;
@@ -64,12 +72,14 @@ export default class PanoScene extends HTMLElement {
 				crossfade(oldLp, lp);
 			});
 		} else { // hard replace
-			this.replaceChildren(lp, ...this.#near.values());
+			this.replaceChildren(toggle, lp, ...this.#near.values());
 		}
 
 		this.#lp = lp;
 		this.#syncSize();
 	}
+
+	get hasItem() { return !!this.#item; }
 
 	highlight(item) {
 		for (let [i, near] of this.#near.entries()) {
@@ -81,6 +91,12 @@ export default class PanoScene extends HTMLElement {
 		const lp = this.#lp;
 		lp.width = lp.clientWidth * DPR;
 		lp.height = lp.clientHeight * DPR;
+		this.#syncNear();
+	}
+
+	#syncNear() {
+		const lp = this.#lp;
+		for (let near of this.#near.values()) { near.updatePosition(lp); }
 	}
 
 	#dispatch(type, item) {
@@ -103,9 +119,7 @@ export default class PanoScene extends HTMLElement {
 			break;
 		}
 
-		for (let near of this.#near.values()) {
-			near.updatePosition(e.target);
-		}
+		this.#syncNear();
 	}
 }
 customElements.define("pano-scene", PanoScene);
